@@ -2,30 +2,28 @@
 
 clear
 
-current=$(pwd)
+path=("$1")
 
-if [[ $current != "$HOME"/* ]]; then
-  echo -e "\e[31mFor security the script only could be run in a Direction which includes '$HOME'.\e[0m" >&2   
+if [[ $path != "$HOME"/* ]]; then
+  echo -e "\e[31mError 1: Path doesn't include '$HOME'.\e[0m" >&2   
 	exit 1
 fi
 
-to=$(cd "$current/.." && pwd)
-
-if [ ! -d "$to"/merge ]; then
-	mkdir "$to"/merge
+if [ ! -d "$path"/merge ]; then
+	mkdir "$path"/merge
 fi
 
 while true; do
 
-  result=$(ls -1 "$to" | grep -v '^script$' | grep -v '^merge$')
+  result=$(ls -1 "$path" | grep -v '^script$' | grep -v '^merge$')
   
   if [ -z "$result" ]; then
-  	exit 0
+  	break
   fi
   
-	ls -1 "$to" | grep -v '^script$' | grep -v '^merge$' | while IFS= read -r directory; do
+	ls -1 "$path" | grep -v '^script$' | grep -v '^merge$' | while IFS= read -r directory; do
 		
-		cd "$to"/"$directory"
+		cd "$path"/"$directory"
 		
 		condition=$(ls -d */ > /dev/null 2>&1)
 		
@@ -44,26 +42,26 @@ while true; do
 					extension="${item_name##*.}" 
 					
 					if [[ "$item_name" == "$base_name" ]]; then
-						mv "$to"/"$directory"/"$content"/"$base_name" "$to"/"$directory"/"$content"_$i""
+						mv "$path"/"$directory"/"$content"/"$base_name" "$path"/"$directory"/"$content"_$i""
 					else
 					  echo "Data found: '$item_name'"
 						new_name="${base_name}_$i.$extension"
-						mv "$item" "$to/$directory/$new_name"
+						mv "$item" "$path/$directory/$new_name"
 					fi
 					
 					i=$((i+1))
 					
 				done
 
-				rmdir "$to"/"$directory"/"$content" 
+				rmdir "$path"/"$directory"/"$content" 
 				
 			done <<< "$condition"
 					
 		else
 		
-			mv "$(pwd)"/* "$to"/merge
-			rmdir "$to"/"$directory"		 
-			exit 0
+			mv "$(pwd)"/* "$path"/merge
+			rmdir "$path"/"$directory"		 
+			break
 			
 		fi
 		

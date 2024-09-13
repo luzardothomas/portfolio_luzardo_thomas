@@ -2,32 +2,29 @@
 
 clear
 
-current=$(pwd)
+path="$1"
 
-if [[ $current != "$HOME"/* ]]; then
-  echo -e "\e[31mFor security the script only could be run in a Direction which includes '$HOME'.\e[0m" >&2   
+if [[ $path != "$HOME"/* ]]; then
+  echo -e "\e[31mError 1: Path doesn't include '$HOME'.\e[0m" >&2   
 	exit 1
 fi
 
-to=$(cd "$current/.." && pwd)
-
-if [ ! -d "$to"/zips ]; then
-  echo -e "\e[31mYou must save .zip files in the zips's directory otherwize the script won't work.\e[0m" >&2    
-	mkdir "$to"/zips
-  exit 1
+if [ ! -d "$path"/merge ]; then    
+	mkdir "$path"/merge
 fi
 
-if [ ! -d "$to"/merge ]; then    
-	mkdir "$to"/merge
+data=$(echo "$(find "$path" -type f -name "*.zip")")
+
+if [[ -z "$data" ]]; then
+	echo -e "\e[31mError 3: There are no .zip files.\e[0m" >&2
+	exit 1
 fi
 
-zip=$(cd "$to/zips" && pwd)
-
-find "$zip" -type f -name "*.zip" | while IFS= read -r unzipped; do
+find "$path" -type f -name "*.zip" | while IFS= read -r unzipped; do
   unzip -Z1 "$unzipped" | grep -v '/$' | while IFS= read -r file; do
-    unzip -jo "$unzipped" "$file" -d "$to"/merge > /dev/null 2>&1;
+    unzip -jo "$unzipped" "$file" -d "$path"/merge > /dev/null 2>&1;
   done
   rm -r "$unzipped"
   package=$(basename "$unzipped")
-  echo "The package '"$package"' was successfully unzipped into '"$to/merge"'";
+  echo "The package '"$package"' was successfully unzipped into '"$path/merge"'";
 done
