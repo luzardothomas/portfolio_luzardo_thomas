@@ -41,8 +41,19 @@ if [[ $1 == '--help' ]]; then
 	echo
 	echo "* Path must include $HOME/"
 	echo "* The directory name is where you will save all the files"
-	echo "* The directory name don't accept spaces"
 	echo "* The directory can't exist before its creation"
+	echo "* The directory name don't accept:"
+	echo "	- Spaces (Whatever you write will be ignored)"
+	echo "	- Void"
+	echo "	- / (slash)"
+	echo "	- \\ (backslash)"
+	echo "	- : (two dots)"
+	echo "	- * (asterisk)"
+	echo "	- ? (question mark)"
+	echo "	- \" (double quotes)"
+	echo "	- < (less than)"
+	echo "	- > (greater than)"
+	echo "	- | (pipe)"
 	echo
 	echo "After # there are comments"
 	echo
