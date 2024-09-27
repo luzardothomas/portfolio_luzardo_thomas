@@ -431,7 +431,7 @@ wrap_files ~/ruta comando_saltar nombre_directorio
 * **Ruta (opcional):** La dirección que se mande tiene que incluir ~/* , dicho de otra forma /home/usuario/*. Si no se manda ninguna ruta entonces se utiliza la ruta del directorio actual en el que se encuentra.
 * **Comando saltar (opcional):** Se utiliza para saltar la pregunta que se da luego de ejecutar el script.
 * **Nombre directorio (obligatorio):** Es el nombre del directorio general (merge) en el que se va a guardar el resultado de la creación de directorios para cada archivo. Los directorios se llaman igual que el archivo que contienen. No se puede crear si ya existe un directorio con el mismo nombre.
-* El nombre de directorio no acepta los siguientes caracteres:
+El nombre de directorio no acepta los siguientes caracteres:
 	* `Espacio` (Todo lo que se escriba después del espacio no va a ser capturado)
 	* `Vacío`
 	* `/` Barra diagonal (slash)
