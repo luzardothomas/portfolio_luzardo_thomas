@@ -35,7 +35,9 @@ Esta es una herramienta que pone a prueba todos los tests propuestos para cada s
 1. **Test script:** Testea uno o todos los scripts a la vez.
 2. **Regenerate test directories:** Elimina todos los directorios y recupera los test de los scripts copiandolos desde su directorio.
 # extract_directory_files
-### Sintaxis [🏠](#índice)
+### Resumen [🏠](#índice)
+Extrae cada uno de los archivos que se encuentran en los directorios y lo guarda todo ello lo guarda en un directorio.
+### Sintaxis
 ```
 extract_directory_files ~/ruta comando_saltar nombre_directorio
 ```
@@ -132,7 +134,9 @@ extract_directory_files -sk nombre_directorio
 ```
 
 # rename_files
-### Sintaxis [🏠](#índice)
+### Resumen [🏠](#índice)
+Renombra todos los archivos por el nombre de plantilla utilizada.
+### Sintaxis
 ```
 rename_files ~/ruta comando_saltar nombre_plantilla
 ```
@@ -211,7 +215,9 @@ rename_files -sk nombre_plantilla
 # sk significa saltar pregunta
 ```
 # smart_unzip
-### Sintaxis [🏠](#índice)
+### Resumen [🏠](#índice)
+Extrae todos los archivos contenidos en archivos de formato .zip y lo guarda todo en un directorio.
+### Sintaxis
 ```
 smart_unzip ~/ruta comando_saltar nombre_directorio
 ```
@@ -320,7 +326,9 @@ smart_unzip -sk nombre_directorio
 # sk significa saltar pregunta
 ```
 # smart_zip
-### Sintaxis [🏠](#índice)
+### Resumen [🏠](#índice)
+Comprime por cada directorio un archivo de formato .zip.
+### Sintaxis
 ```bash
 smart_zip ~/ruta comando_saltar nombre_directorio
 ```
@@ -414,7 +422,9 @@ smart_zip -sk nombre_directorio
 # sk significa saltar pregunta
 ```
 # wrap_files
-### Sintaxis [🏠](#índice)
+### Resumen [🏠](#índice)
+Crea un directorio para cada archivo y almacena ese archivo en el directorio que tiene su mismo nombre, y al final almacena todos esos directorios en un directorio.
+### Sintaxis
 ```
 wrap_files ~/ruta comando_saltar nombre_directorio
 ```
@@ -492,7 +502,9 @@ wrap_files -sk directory_name
 # sk significa saltar pregunta
 ```
 # wrap_files_in_groups
-### Sintaxis [🏠](#índice)
+### Resumen [🏠](#índice)
+Almacena un grupo o varios grupos de archivos en uno o varios directorios.
+### Sintaxis
 ```
 wrap_files_in_groups ~/ruta comando_saltar nombre_grupo rango
 ```
