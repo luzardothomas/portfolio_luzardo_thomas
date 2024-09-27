@@ -47,15 +47,15 @@ extract_directory_files ~/ruta comando_saltar nombre_directorio
 El nombre de directorio no acepta los siguientes caracteres:
 	* `Espacio` (Todo lo que se escriba después del espacio no va a ser capturado)
 	* `Vacío`
-	* `/` Barra diagonal (slash)
-	* `\\` Barra inversa (backslash)
+	* `/` Barra diagonal
+	* `\\` Barra inversa
 	* `:` Dos puntos
 	* `*` Asterisco
 	* `?` Signo de interrogación
 	* `"` Comillas dobles
 	* `<` Menor que
 	* `>` Mayor que
-	* `|` Barra vertical (pipe) 
+	* `|` Barra vertical
 ### Funcionamiento
  1. Crea un directorio merge (nombre_directorio)
  2. Por orden ascendente va a recorrer los directorios que hay en la ruta mandada o en la que se encuentra
@@ -146,15 +146,15 @@ rename_files ~/ruta comando_saltar nombre_plantilla
 El nombre de plantilla no acepta los siguientes caracteres:
 	* `Espacio` (Todo lo que se escriba después del espacio no va a ser capturado)
 	* `Vacío`
-	* `/` Barra diagonal (slash)
-	* `\\` Barra inversa (backslash)
+	* `/` Barra diagonal
+	* `\\` Barra inversa
 	* `:` Dos puntos
 	* `*` Asterisco
 	* `?` Signo de interrogación
 	* `"` Comillas dobles
 	* `<` Menor que
 	* `>` Mayor que
-	* `|` Barra vertical (pipe) 
+	* `|` Barra vertical
 ### Funcionamiento
  1. Separa los archivos que va a recorrer en orden ascendente
  2. Inicializa un contador en 1
@@ -227,15 +227,15 @@ smart_unzip ~/ruta comando_saltar nombre_directorio
 El nombre de directorio no acepta los siguientes caracteres:
 	* `Espacio` (Todo lo que se escriba después del espacio no va a ser capturado)
 	* `Vacío`
-	* `/` Barra diagonal (slash)
-	* `\\` Barra inversa (backslash)
+	* `/` Barra diagonal
+	* `\\` Barra inversa
 	* `:` Dos puntos
 	* `*` Asterisco
 	* `?` Signo de interrogación
 	* `"` Comillas dobles
 	* `<` Menor que
 	* `>` Mayor que
-	* `|` Barra vertical (pipe) 
+	* `|` Barra vertical
 ### Funcionamiento
  1. Crea un directorio merge (nombre_directorio)
  2. Por orden ascendente va a recorrer los archivos .zip que hay en la ruta mandada o en la que se encuentra
@@ -338,15 +338,15 @@ smart_zip ~/ruta comando_saltar nombre_directorio
 El nombre de directorio no acepta los siguientes caracteres:
 	* `Espacio` (Todo lo que se escriba después del espacio no va a ser capturado)
 	* `Vacío`
-	* `/` Barra diagonal (slash)
-	* `\\` Barra inversa (backslash)
+	* `/` Barra diagonal
+	* `\\` Barra inversa
 	* `:` Dos puntos
 	* `*` Asterisco
 	* `?` Signo de interrogación
 	* `"` Comillas dobles
 	* `<` Menor que
 	* `>` Mayor que
-	* `|` Barra vertical (pipe) 
+	* `|` Barra vertical
 ### Funcionamiento
  1. Crea un directorio merge (nombre_directorio)
  2. Por orden ascendente va a recorrer los directorios que hay en la ruta mandada o en la que se encuentra
@@ -434,15 +434,15 @@ wrap_files ~/ruta comando_saltar nombre_directorio
 El nombre de directorio no acepta los siguientes caracteres:
 	* `Espacio` (Todo lo que se escriba después del espacio no va a ser capturado)
 	* `Vacío`
-	* `/` Barra diagonal (slash)
-	* `\\` Barra inversa (backslash)
+	* `/` Barra diagonal
+	* `\\` Barra inversa
 	* `:` Dos puntos
 	* `*` Asterisco
 	* `?` Signo de interrogación
 	* `"` Comillas dobles
 	* `<` Menor que
 	* `>` Mayor que
-	* `|` Barra vertical (pipe) 
+	* `|` Barra vertical
 ### Funcionamiento
  1. Crea un directorio merge (nombre_directorio).
  2. Por orden ascendente va a recorrer los archivos que hay en la ruta mandada o en la que se encuentra
@@ -515,15 +515,15 @@ wrap_files_in_groups ~/ruta comando_saltar nombre_grupo rango
 El nombre del grupo no acepta los siguientes caracteres:
 	* `Espacio` (Lo que escribas luego del espacio va a ser considerado como otro grupo)
 	* `Vacío`
-	* `/` Barra diagonal (slash)
-	* `\\` Barra inversa (backslash)
+	* `/` Barra diagonal
+	* `\\` Barra inversa
 	* `:` Dos puntos
 	* `*` Asterisco
 	* `?` Signo de interrogación
 	* `"` Comillas dobles
 	* `<` Menor que
 	* `>` Mayor que
-	* `|` Barra vertical (pipe)
+	* `|` Barra vertical
 * **Rango (obligatorio):** Formato a-b (ambos números) que sirve para indicar cuántos archivos se quiere seleccionar. Si se pone 1-10 el rango se calcula con la diferencia del extremo superior y el inferior sumándole uno (10-1+1), por lo que seleccionaría los 10 primeros archivos que se encuentren en el orden ascendente. No se aceptan rangos negativos.
 ### Funcionamiento
  1. Separa los archivos en orden ascendente
