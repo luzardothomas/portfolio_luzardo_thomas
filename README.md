@@ -36,7 +36,7 @@ Esta es una herramienta que pone a prueba todos los tests propuestos para cada s
 2. **Regenerate test directories:** Elimina todos los directorios y recupera los test de los scripts copiandolos desde su directorio.
 # extract_directory_files
 ### Resumen [🏠](#índice)
-Extrae cada uno de los archivos que se encuentran en los directorios y lo guarda todo ello lo guarda en un directorio.
+Extrae todos los archivos que se encuentran en los directorios y almacena todos ellos en un directorio.
 ### Sintaxis
 ```
 extract_directory_files ~/ruta comando_saltar nombre_directorio
@@ -135,7 +135,7 @@ extract_directory_files -sk nombre_directorio
 
 # rename_files
 ### Resumen [🏠](#índice)
-Renombra todos los archivos por el nombre de plantilla utilizada.
+Renombra todos los archivos utilizando una plantilla.
 ### Sintaxis
 ```
 rename_files ~/ruta comando_saltar nombre_plantilla
@@ -216,7 +216,7 @@ rename_files -sk nombre_plantilla
 ```
 # smart_unzip
 ### Resumen [🏠](#índice)
-Extrae todos los archivos contenidos en archivos de formato .zip y lo guarda todo en un directorio.
+Extrae todos los archivos contenidos en archivos de formato .zip y almacena todos ellos en un directorio.
 ### Sintaxis
 ```
 smart_unzip ~/ruta comando_saltar nombre_directorio
@@ -327,7 +327,7 @@ smart_unzip -sk nombre_directorio
 ```
 # smart_zip
 ### Resumen [🏠](#índice)
-Comprime por cada directorio un archivo de formato .zip.
+Comprime cada directorio en un archivo de formato .zip y almacena todos los .zip en un directorio.
 ### Sintaxis
 ```bash
 smart_zip ~/ruta comando_saltar nombre_directorio
@@ -423,7 +423,7 @@ smart_zip -sk nombre_directorio
 ```
 # wrap_files
 ### Resumen [🏠](#índice)
-Crea un directorio para cada archivo y almacena ese archivo en el directorio que tiene su mismo nombre, y al final almacena todos esos directorios en un directorio.
+Crea un directorio para cada archivo, almacena ese archivo en el directorio creado con su mismo nombre, y al final almacena todos esos directorios en un directorio.
 ### Sintaxis
 ```
 wrap_files ~/ruta comando_saltar nombre_directorio
