@@ -327,7 +327,7 @@ smart_unzip -sk nombre_directorio
 ```
 # smart_zip
 ### Resumen [🏠](#índice)
-Comprime cada directorio en un archivo .zip, elimina el directorio original y guarda todos los .zip en un directorio.
+Comprime cada directorio en un archivo .zip, elimina el directorio original y almacena todos los .zip en un directorio.
 ### Sintaxis
 ```bash
 smart_zip ~/ruta comando_saltar nombre_directorio
