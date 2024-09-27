@@ -1,27 +1,27 @@
 #!/bin/bash
 
 if [[ -z $@ ]]; then
-	echo "Try 'smart_unzip --help' for more information."
+	echo "Try 'smart_zip --help' for more information."
 	exit 1
 fi
 
 if [[ $1 == '--help' ]]; then
-	echo "smart_unzip [script]"
+	echo "smart_zip [script]"
 	echo
 	echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	echo "Summary of how the script works:"
 	echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	echo
-	echo "Extracts all the files of each .zip"
+	echo "Compress each directory in a format .zip"
 	echo
 	echo "::::::::::::::::::::::"
 	echo "Process of the script:"
 	echo "::::::::::::::::::::::"
 	echo
 	echo "1- Creates a merge directory used to store the results after the loop"
-	echo "2- Extracts files from a single .zip file"
-	echo "3- Erases the original .zip file"
-	echo "Repeats the last two steps until the end"        
+	echo "2- Compresses a single directory into a .zip file"
+	echo "3- Erases the original directory"
+	echo "Repeats the last two steps until the end"
 	echo
 	echo "Inside the brackets [], there are comments"
 	echo
@@ -34,14 +34,14 @@ if [[ $1 == '--help' ]]; then
 	echo "=============================================================="
 	echo
 	echo "[req = required]"
-	echo "[opt = optional]" 
+	echo "[opt = optional]"
 	echo
 	echo "++++++++++++++++++++++++++++++"
 	echo "Characteristics of the script:"
 	echo "++++++++++++++++++++++++++++++"
 	echo
 	echo "* Path must include $HOME/"
-	echo "* The directory name is where you will save all the files"
+	echo "* The directory name is where you will save all the .zip files"
 	echo "* The directory name don't accept spaces"
 	echo "* The directory can't exist before its creation"
 	echo
@@ -51,13 +51,14 @@ if [[ $1 == '--help' ]]; then
 	echo "Ways to use it:"
 	echo "###############"
 	echo
-	echo "smart_unzip ~/path directory_name"
-	echo "# files will be stored in that directory"
+	echo "smart_zip ~/path directory_name"
+	echo "# creates a merge directory used to store all"
+	echo "# the .zip files created from the directories"
 	echo
-	echo "smart_unzip directory_name"
-	echo "# no path means current path"
+	echo "smart_zip directory_name"
+	echo "# no path means current directory"
 	echo
-	echo "smart_unzip -sk directory_name"
+	echo "smart_zip -sk directory_name"
 	echo "# sk means skip question"
 	exit 1
 fi
@@ -71,7 +72,7 @@ else
 fi
 
 if [[ $path != "$HOME"/* ]]; then
-  echo -e "\e[31mError 1: Path doesn't include '$HOME'.\e[0m" >&2   
+	echo -e "\e[31mError 1: Path doesn't include '$HOME'.\e[0m" >&2
 	exit 1
 fi
 
@@ -90,18 +91,27 @@ else
 	shift
 fi
 
-zips=$(ls -p "$path" | grep -v / | grep "\.zip$")
+if [ ! -d "$path"/"$to" ]; then
+	mkdir "$path"/"$to"
+else
+	echo -e "\e[31mError 3: That directory already exists.\e[0m" >&2   
+	exit 1
+fi
 
-if [[ -z "$zips" ]]; then
-	echo -e "\e[31mError 3: There are no .zip files.\e[0m" >&2
+cd "$path"
+
+directories=$(ls -d */ | grep -Ev "("$to"/)$" | sort -V)
+
+if [[ -z "$directories" ]]; then
+	echo -e "\e[31mError 4: There are no directories.\e[0m" >&2
 	exit 1
 fi
 
 while true; do
 	
   if [[ ! -n "$answer" ]]; then
-    echo "$zips"
-    echo "You are about to unzip and erase all the these .zip files."
+    echo "$directories"
+    echo "You are about to compress each directory."
     read -p "Is this correct? (y/n): " answer
   fi
   
@@ -111,7 +121,6 @@ while true; do
     exit 1
   fi
   clear
-  
   echo "Invalid answer: Try Again"
   answer=""
   
@@ -119,9 +128,19 @@ done
 
 IFS=$'\n'
 
-for zip in $zips; do
-	unzip -jo "$path"/"$zip" -d "$path"/"$to" > /dev/null 2>&1
-	rm -r "$path"/"$zip"
-	echo "The package '"$zip"' was successfully unzipped in '$to'"
+for directory in $directories; do
+	directory="${directory%/}"
+	zip_file="$path"/"$directory.zip"
+	
+  echo "Compressing '$directory' into '$directory.zip'"
+  zip -r "$zip_file" "$path/$directory/" > /dev/null 2>&1
+  echo "Moving the '$directory.zip' to '$to'"
+  mv "$zip_file" "$path"/"$to"
+  echo "Erasing the original directory '$directory'"
+  rm -r "$path"/"$directory"
+    
 done
+
+
+
 
