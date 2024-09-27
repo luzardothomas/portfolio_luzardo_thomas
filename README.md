@@ -216,7 +216,7 @@ rename_files -sk nombre_plantilla
 ```
 # smart_unzip
 ### Resumen [🏠](#índice)
-Extrae todos los archivos contenidos en archivos de formato .zip y almacena todos ellos en un directorio.
+Extrae los archivos de cada archivo .zip, elimina el .zip original y almacena los archivos en un directorio.
 ### Sintaxis
 ```
 smart_unzip ~/ruta comando_saltar nombre_directorio
@@ -327,7 +327,7 @@ smart_unzip -sk nombre_directorio
 ```
 # smart_zip
 ### Resumen [🏠](#índice)
-Comprime cada directorio en un archivo de formato .zip y almacena todos los .zip en un directorio.
+Comprime cada directorio en un archivo .zip, elimina el directorio original y guarda todos los .zip en un directorio.
 ### Sintaxis
 ```bash
 smart_zip ~/ruta comando_saltar nombre_directorio
