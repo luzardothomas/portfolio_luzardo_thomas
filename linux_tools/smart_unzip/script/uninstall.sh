@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Configura el nombre del comando y el directorio de instalación
 COMMAND_NAME="smart_unzip"
 INSTALL_DIR="/usr/local/bin"
 
@@ -9,17 +8,17 @@ exit_code=$?
 
 if [ $exit_code == 1 ]; then
 	sudo rm "$INSTALL_DIR/$COMMAND_NAME"
-	echo "El comando '$COMMAND_NAME' ha sido eliminado de $INSTALL_DIR."
+	echo "The command '$COMMAND_NAME' has been removed from $INSTALL_DIR."
 	sed -i "\|$INSTALL_DIR|d" ~/.bashrc
-	echo "El directorio $INSTALL_DIR ha sido eliminado del PATH en .bashrc."
+	echo "The directory $INSTALL_DIR has been removed from the PATH in .bashrc."
 	source ~/.bashrc
 	echo "~~~~~~~~~~~~~~~~~~~~~~~"
-	echo "Desinstalación completa"
+	echo "Uninstallation complete"
 	echo "~~~~~~~~~~~~~~~~~~~~~~~"
 else
-	echo "*********************************************************"
-	echo "El comando '$COMMAND_NAME' no estaba instalado."
-	echo "*********************************************************"
+	echo "********************************************************"
+	echo "The command '$COMMAND_NAME' was not installed."
+	echo "********************************************************"
 fi
 
 
