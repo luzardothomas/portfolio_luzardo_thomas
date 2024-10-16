@@ -1,3 +1,22 @@
+# Proyecto en Desarrollo WEB
+# Plataforma para ver trailers de series y películas
+**Tecnologías utilizadas**
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="ExpressJS" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node-dot-js&logoColor=white" alt="NodeJS" />
+</p>
+
+[![Screenshot from 2024-10-16 11-18-06](https://github.com/user-attachments/assets/d5817225-a29f-4b68-8b7b-fa1c6382b680)](https://chillstream.onrender.com)
+[![Screenshot from 2024-10-16 11-24-31](https://github.com/user-attachments/assets/812c8fdf-f494-493a-9473-ebb5d647eb1d)](https://chillstream.onrender.com/login)
+[![Screenshot from 2024-10-16 10-48-13](https://github.com/user-attachments/assets/0e1d41fd-5fc9-4335-903c-d67b665f71e7)](https://chillstream.onrender.com)
+---
+# Proyectos en Bash
 # Índice
 1. [Introducción](#introducción) 
 2. [Instalación](#instalación)
