@@ -12,6 +12,8 @@
   <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node-dot-js&logoColor=white" alt="NodeJS" />
 </p>
 
+**Imágenes del proyecto con vínculos al sitio**
+
 [![Screenshot from 2024-10-16 11-18-06](https://github.com/user-attachments/assets/d5817225-a29f-4b68-8b7b-fa1c6382b680)](https://chillstream.onrender.com)
 [![Screenshot from 2024-10-16 11-24-31](https://github.com/user-attachments/assets/812c8fdf-f494-493a-9473-ebb5d647eb1d)](https://chillstream.onrender.com/login)
 [![Screenshot from 2024-10-16 10-48-13](https://github.com/user-attachments/assets/0e1d41fd-5fc9-4335-903c-d67b665f71e7)](https://chillstream.onrender.com)
