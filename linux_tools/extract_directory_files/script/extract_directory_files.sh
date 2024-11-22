@@ -109,7 +109,7 @@ fi
 
 cd "$path"
 
-directories=$(ls -d */ | grep -Ev "("$to"/)$")
+directories=$(ls -d */ | grep -Ev "("$to"/)$" | sort -V)
 
 if [[ -z $directories ]]; then
 	echo -e "\e[31mError 4: There aren't any directories.\e[0m" >&2   
