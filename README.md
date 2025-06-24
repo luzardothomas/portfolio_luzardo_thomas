@@ -1,8 +1,9 @@
-# Proyecto en Desarrollo WEB
-# Plataforma para ver trailers de series y películas
+# Proyectos de Desarrollo WEB
 
 <details>
 	<summary>Proyecto 1</summary>
+
+# Plataforma para ver trailers de series y películas
 
  **Tecnologías utilizadas**
 <p align="center">
@@ -24,7 +25,7 @@
 
 </details>
 
-# Proyectos en Bash
+# Scripts desarrollados en Bash
 
 <details>
 	<summary>Instalación</summary>
@@ -64,11 +65,10 @@ bash installer.sh
 	
 </details>	
 
-<details>
-	<summary>Scripts</summary>
+---
 
 <details>
-	<summary>extract_directory_files</summary>
+	<summary>Script 1: extract_directory_files</summary>
 
 <details>
 	<summary>Resumen</summary>
@@ -200,8 +200,10 @@ extract_directory_files -sk nombre_directorio
 	
 </details>
 
+---
+
 <details>
-	<summary>rename_files</summary>
+	<summary>Script 2: rename_files</summary>
 
 <details>
 	<summary>Resumen</summary>
@@ -314,9 +316,10 @@ rename_files -sk nombre_plantilla
 	
 </details>
 
+---
 
 <details>
-	<summary>smart_unzip</summary>
+	<summary>Script 3: smart_unzip</summary>
 
 <details>
 	<summary>Resumen</summary>
@@ -437,7 +440,6 @@ style AR6 fill:#7968ff,stroke:#000000,stroke-width:2px
 	
 </details>
 
-
 <details>
 	<summary>Formas de usarlo</summary>
 
@@ -458,8 +460,10 @@ smart_unzip -sk nombre_directorio
 
 </details>
 
+---
+
 <details>
-	<summary>smart_zip</summary>
+	<summary>Script 4: smart_zip</summary>
 
 
 <details>
@@ -589,9 +593,10 @@ smart_zip -sk nombre_directorio
 	
 </details>
 
+---
 
 <details>
-	<summary>wrap_files</summary>
+	<summary>Script 5: wrap_files</summary>
 
 
 <details>
@@ -704,13 +709,13 @@ wrap_files -sk directory_name
 
 </details>
 
-
 	
 </details>
 
+---
 
 <details>
-	<summary>wrap_files_in_groups</summary>
+	<summary>Script 6: wrap_files_in_groups</summary>
 
 <details>
 	<summary>Resumen</summary>
@@ -953,11 +958,6 @@ wrap_files_in_groups -sk2 nombre_grupo_A nombre_grupo_B nombre_grupo_C 1-2 3-6 7
 </details>
 
 
-
-
-
-
-</details>
 
 
 
