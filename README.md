@@ -63,7 +63,10 @@ bash installer.sh
 1. **Test script:** Testea uno o todos los scripts a la vez.
 2. **Regenerate test directories:** Elimina todos los directorios y recupera los test de los scripts copiandolos desde su directorio.
 	
-</details>	
+</details>
+
+<details>
+	<summary>Scripts</summary>
 
 ---
 
@@ -956,6 +959,12 @@ wrap_files_in_groups -sk2 nombre_grupo_A nombre_grupo_B nombre_grupo_C 1-2 3-6 7
 
 	
 </details>
+
+ 
+
+ 
+</details>
+
 
 
 
