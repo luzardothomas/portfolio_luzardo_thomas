@@ -2,7 +2,7 @@
 # Plataforma para ver trailers de series y películas
 
 <details>
-	<summary></summary>
+	<summary>Proyecto 1</summary>
 
  **Tecnologías utilizadas**
 <p align="center">
