@@ -27,13 +27,6 @@
 # Proyectos en Bash
 
 <details>
-
-<summary></summary>
-	
-</details>
-
-
-<details>
 	<summary>Instalación</summary>
 	
 ## Comando para instalar los Scripts
@@ -57,8 +50,8 @@ bash installer.sh
 <details>
 	<summary>Testing</summary>
 	
-# Testing
-Esta es una herramienta la cual ejecuta un lote de pruebas de cada script para mostrar su funcionamiento.
+## Comando para ejecutar un lote de pruebas para cada Script
+
 ```bash
  # Entrar al directorio donde se encuentra el tester
  cd portfolio_luzardo_thomas/linux_tools/x_test_scripts/
