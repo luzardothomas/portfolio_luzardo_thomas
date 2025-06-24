@@ -1,6 +1,10 @@
 # Proyecto en Desarrollo WEB
 # Plataforma para ver trailers de series y películas
-**Tecnologías utilizadas**
+
+<details>
+	<summary></summary>
+
+ **Tecnologías utilizadas**
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
@@ -12,80 +16,120 @@
   <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node-dot-js&logoColor=white" alt="NodeJS" />
 </p>
 
-**Imágenes del proyecto con vínculos al sitio**
-
+## Imágenes con Hipervínculos
+	
 [![Screenshot from 2024-10-16 11-18-06](https://github.com/user-attachments/assets/d5817225-a29f-4b68-8b7b-fa1c6382b680)](https://chillstream.onrender.com)
 [![Screenshot from 2024-10-16 11-24-31](https://github.com/user-attachments/assets/812c8fdf-f494-493a-9473-ebb5d647eb1d)](https://chillstream.onrender.com/login)
 [![Screenshot from 2024-10-16 10-48-13](https://github.com/user-attachments/assets/0e1d41fd-5fc9-4335-903c-d67b665f71e7)](https://chillstream.onrender.com)
----
+
+</details>
+
 # Proyectos en Bash
-# Índice
-1. [Introducción](#introducción) 
-2. [Instalación](#instalación)
-3. [Testing](#testing)
-4. [Extraer archivos de directorio (extract_directory_files)](#extract_directory_files)
-5. [Renombrar archivos (rename_files)](#rename_files)
-6. [Descomprimir eficiente (smart_unzip)](#smart_unzip)
-7. [Comprimir eficiente (smart_zip)](#smart_zip)
-8. [Guardar archivos en directorios (wrap_files)](#wrap_files)
-9. [Guardar grupos de archivos en grupos de directorios (wrap_files_in_groups)](#wrap_files_in_groups)
-# Introducción
-En este repositorio se encuentran seis scripts para automatizar tareas que a nivel macro podrían ser tediosas y una pérdida de tiempo. Decidí hacer todos estos scripts para poder aprender bash y manejar con mayor soltura todo lo referente a GNU/Linux.
-# Instalación
+
+<details>
+
+<summary></summary>
+	
+</details>
+
+
+<details>
+	<summary>Instalación</summary>
+	
+## Comando para instalar los Scripts
+	
 ```bash
- # Clonar el repositorio en la versión más actual
- git clone --depth=1 https://github.com/luzardothomas/portfolio_luzardo_thomas.git
- # Entrar al directorio donde se encuentra el instalador
- cd portfolio_luzardo_thomas/linux_tools
- # Ejecutar el instalador
- bash installer.sh
+# Clonar el repositorio en la versión más actual
+git clone --depth=1 https://github.com/luzardothomas/portfolio_luzardo_thomas.git
+# Entrar al directorio donde se encuentra el instalador
+cd portfolio_luzardo_thomas/linux_tools
+# Ejecutar el instalador
+bash installer.sh
 ```
-## Opciones del Instalador [🏠](#índice)
-1. **Install:** Instala o bien un script o todos a la vez.
-2. **Uninstall:** Desinstala o bien un script o todos a la vez.
+## Opciones del Instalador
+1. **Install:** Instala un script o todos a la vez.
+2. **Uninstall:** Desinstala un script o todos a la vez.
 3.  **Reinstall:** Reinstala todos los scripts a la vez.
+4.  
+</details>
+
+	
+<details>
+	<summary>Testing</summary>
+	
 # Testing
-Esta es una herramienta que pone a prueba todos los tests propuestos para cada script del repositorio.
+Esta es una herramienta la cual ejecuta un lote de pruebas de cada script para mostrar su funcionamiento.
 ```bash
  # Entrar al directorio donde se encuentra el tester
  cd portfolio_luzardo_thomas/linux_tools/x_test_scripts/
  # Ejecutar el tester
  bash test_scripts.sh
 ```
-## Opciones del Tester [🏠](#índice)
+## Opciones del Tester
 1. **Test script:** Testea uno o todos los scripts a la vez.
 2. **Regenerate test directories:** Elimina todos los directorios y recupera los test de los scripts copiandolos desde su directorio.
-# extract_directory_files
-### Resumen [🏠](#índice)
+	
+</details>	
+
+<details>
+	<summary>Scripts</summary>
+
+<details>
+	<summary>extract_directory_files</summary>
+
+<details>
+	<summary>Resumen</summary>
+	
 Extrae los archivos que se encuentran en los directorios, los almacena en un directorio y elimina los directorios vaciados.
-### Sintaxis
+
+</details>
+
+
+<details>
+	<summary>Sintaxis y parametros enviados</summary>
+	
+## Sintaxis
+
 ```
 extract_directory_files ~/ruta comando_saltar nombre_directorio
 ```
+
+## Parametros
+
 * **Ruta (opcional):** La dirección que se mande tiene que incluir ~/* , dicho de otra forma /home/usuario/*. Si no se manda ninguna ruta entonces se utiliza la ruta del directorio actual en el que se encuentra.
-* **Comando saltar (opcional):** Se utiliza para saltar la pregunta que se da luego de ejecutar el script.
-* **Nombre directorio (obligatorio):** Es el nombre del directorio general (merge) en el que se va a guardar el resultado de la extracción de archivos. No se puede crear si ya existe un directorio con el mismo nombre.
-El nombre de directorio no acepta los siguientes caracteres:
-	* `Espacio` (Todo lo que se escriba después del espacio no va a ser capturado)
-	* `Vacío`
-	* `/` Barra diagonal
-	* `\\` Barra inversa
-	* `:` Dos puntos
-	* `*` Asterisco
-	* `?` Signo de interrogación
-	* `"` Comillas dobles
-	* `<` Menor que
-	* `>` Mayor que
-	* `|` Barra vertical
-### Funcionamiento
+* **Comando saltar (opcional):** Se utiliza para saltar la pregunta de seguridad que aparece luego de ejecutar el script.
+* **Nombre directorio (obligatorio):** Es el nombre del directorio general donde se va a guardar el resultado de la extracción de archivos. No puede elegirse un nombre de directorio que ya exista dentro en la dirección en la que se ejecuta el Script.
+
+| **⚠ Caracteres inválidos en el nombre del Directorio ⚠**  |
+| ------------- |
+| Nombre de Directorio vacío      | 
+| Espacio      | 
+| `/` Barra diagonal     |
+|`\` Barra diagonal inversa|
+|`:` Dos puntos|
+|`*` Asterisco|
+|`?` Signo de interrogación|
+|`"` Comillas dobles|
+|`<` Menor que|
+|`>` Mayor que|
+|`\|` Barra vertical|
+    
+</details>
+	
+<details>
+	<summary>Funcionamiento</summary>
+
  1. Crea un directorio merge (nombre_directorio)
  2. Por orden ascendente va a recorrer los directorios que hay en la ruta mandada o en la que se encuentra
  3. Busca la ruta de todos los archivos con el comando "find"
  4. Mueve esos archivos al merge y luego borra el directorio que se recorrió
  5. El bucle se da en los pasos 2,3 y 4. El proceso finaliza cuando recorrió todos los directorios
+	
+</details>
 
-### Ejemplo [🏠](#índice)
-
+<details>
+	<summary>Ejemplo detallado de cómo funciona</summary>
+	
 #### Estado inicial
 
 ```mermaid
@@ -140,7 +184,13 @@ style AR5 fill:#7968ff,stroke:#000000,stroke-width:2px
 style AR6 fill:#7968ff,stroke:#000000,stroke-width:2px
 style AR7 fill:#7968ff,stroke:#000000,stroke-width:2px
 ```
-### Formas de usarlo [🏠](#índice)
+
+</details>
+
+
+<details>
+	<summary>Formas de usarlo</summary>
+
 ```bash
 extract_directory_files ~/ruta nombre_directorio 
 # los archivos obtenidos en la ruta guardan en nombre_directorio
@@ -153,30 +203,51 @@ extract_directory_files nombre_directorio
 extract_directory_files -sk nombre_directorio 
 # sk significa saltar pregunta
 ```
+</details>
+	
+</details>
 
-# rename_files
-### Resumen [🏠](#índice)
+<details>
+	<summary>rename_files</summary>
+
+<details>
+	<summary>Resumen</summary>
+
 Renombra los archivos utilizando una plantilla.
-### Sintaxis
+
+</details>
+
+
+<details>
+	<summary>Sintaxis y parametros enviados</summary>
+	
 ```
 rename_files ~/ruta comando_saltar nombre_plantilla
 ```
 * **Ruta (opcional):** La dirección que se mande tiene que incluir ~/* , dicho de otra forma /home/usuario/*. Si no se manda ninguna ruta entonces se utiliza la ruta del directorio actual en el que se encuentra.
 * **Comando de saltar (opcional):** Se utiliza para saltar la pregunta que se da luego de ejecutar el script.
 * **Nombre de la plantilla (obligatorio):** Es el nombre del directorio general (merge) en el que se va a guardar el resultado del renombramiento de los archivos. No se puede usar si ya existen archivos con esa plantilla.
-El nombre de plantilla no acepta los siguientes caracteres:
-	* `Espacio` (Todo lo que se escriba después del espacio no va a ser capturado)
-	* `Vacío`
-	* `/` Barra diagonal
-	* `\\` Barra inversa
-	* `:` Dos puntos
-	* `*` Asterisco
-	* `?` Signo de interrogación
-	* `"` Comillas dobles
-	* `<` Menor que
-	* `>` Mayor que
-	* `|` Barra vertical
-### Funcionamiento
+
+| **⚠ Caracteres inválidos en el nombre del Directorio ⚠**  |
+| ------------- |
+| Nombre de Directorio vacío      | 
+| Espacio      | 
+| `/` Barra diagonal     |
+|`\` Barra diagonal inversa|
+|`:` Dos puntos|
+|`*` Asterisco|
+|`?` Signo de interrogación|
+|`"` Comillas dobles|
+|`<` Menor que|
+|`>` Mayor que|
+|`\|` Barra vertical|
+
+</details>
+	
+<details>
+	<summary>Funcionamiento</summary>
+
+
  1. Separa los archivos que va a recorrer en orden ascendente
  2. Inicializa un contador en 1
  3. Recorre los archivos en orden ascendente
@@ -186,10 +257,13 @@ El nombre de plantilla no acepta los siguientes caracteres:
  6. Renombra el archivo con el nuevo nombre
  7. Le suma 1 al contador
  8. El bucle se da en los pasos 3,4,5, 6 y 7. El proceso finaliza cuando recorrió todos los archivos
-     
 
-### Ejemplo [🏠](#índice)
 
+</details>
+
+<details>
+	<summary>Ejemplo detallado de cómo funciona</summary>
+	
 #### Estado inicial
 
 ```mermaid
@@ -222,7 +296,13 @@ style C fill:#E48200,stroke:#000000,stroke-width:2px
 style D fill:#E48200,stroke:#000000,stroke-width:2px
 
 ```
-### Formas de usarlo [🏠](#índice)
+
+</details>
+
+
+<details>
+	<summary>Formas de usarlo</summary>
+
 ```bash
 rename_files ~/ruta nombre_plantilla 
 # los archivos obtenidos en la ruta guardan en nombre_directorio
@@ -235,36 +315,64 @@ rename_files nombre_plantilla
 rename_files -sk nombre_plantilla  
 # sk significa saltar pregunta
 ```
-# smart_unzip
-### Resumen [🏠](#índice)
-Extrae los archivos de cada archivo .zip, elimina el .zip original y almacena los archivos en un directorio.
-### Sintaxis
+
+</details>
+
+	
+</details>
+
+
+<details>
+	<summary>smart_unzip</summary>
+
+<details>
+	<summary>Resumen</summary>
+
+Extrae los archivos de cada archivo .zip, elimina el .zip original y almacena los archivos en un directorio.	
+
+</details>
+
+
+<details>
+	<summary>Sintaxis y parametros enviados</summary>
+
 ```
 smart_unzip ~/ruta comando_saltar nombre_directorio
 ```
 * **Ruta (opcional):** La dirección que se mande tiene que incluir ~/* , dicho de otra forma /home/usuario/*. Si no se manda ninguna ruta entonces se utiliza la ruta del directorio actual en el que se encuentra.
 * **Comando saltar (opcional):** Se utiliza para saltar la pregunta que se da luego de ejecutar el script.
 * **Nombre directorio (obligatorio):** Directorio en el que se va a guardar el resultado de la extracción de archivos. No se puede crear si ya existe un directorio con el mismo nombre.
-El nombre de directorio no acepta los siguientes caracteres:
-	* `Espacio` (Todo lo que se escriba después del espacio no va a ser capturado)
-	* `Vacío`
-	* `/` Barra diagonal
-	* `\\` Barra inversa
-	* `:` Dos puntos
-	* `*` Asterisco
-	* `?` Signo de interrogación
-	* `"` Comillas dobles
-	* `<` Menor que
-	* `>` Mayor que
-	* `|` Barra vertical
-### Funcionamiento
+
+| **⚠ Caracteres inválidos en el nombre del Directorio ⚠**  |
+| ------------- |
+| Nombre de Directorio vacío      | 
+| Espacio      | 
+| `/` Barra diagonal     |
+|`\` Barra diagonal inversa|
+|`:` Dos puntos|
+|`*` Asterisco|
+|`?` Signo de interrogación|
+|`"` Comillas dobles|
+|`<` Menor que|
+|`>` Mayor que|
+|`\|` Barra vertical|	
+
+</details>
+	
+<details>
+	<summary>Funcionamiento</summary>
+
+
  1. Crea un directorio merge (nombre_directorio)
  2. Por orden ascendente va a recorrer los archivos .zip que hay en la ruta mandada o en la que se encuentra
  3. Extrae todos los archivos que se encuentran en el .zip en el merge
  4. Elimina el archivo .zip original
  5. El bucle se da en los pasos 2,3 y 4. El proceso finaliza cuando no hayan más archivos .zip
 
-### Ejemplo [🏠](#índice)
+</details>
+
+<details>
+	<summary>Ejemplo detallado de cómo funciona</summary>
 
 #### Estado inicial
 
@@ -333,7 +441,13 @@ style AR5 fill:#7968ff,stroke:#000000,stroke-width:2px
 style AR6 fill:#7968ff,stroke:#000000,stroke-width:2px
 
 ```
-### Formas de usarlo [🏠](#índice)
+	
+</details>
+
+
+<details>
+	<summary>Formas de usarlo</summary>
+
 ```bash
 smart_unzip ~/ruta nombre_directorio 
 # los archivos extraídos del .zip se guardan en el merge (nombre_directorio)
@@ -346,37 +460,66 @@ smart_unzip_files nombre_directorio
 smart_unzip -sk nombre_directorio 
 # sk significa saltar pregunta
 ```
-# smart_zip
-### Resumen [🏠](#índice)
+
+</details>
+
+</details>
+
+<details>
+	<summary>smart_zip</summary>
+
+
+<details>
+	<summary>Resumen</summary>
+
 Comprime cada directorio en un archivo .zip, elimina el directorio original y almacena todos los .zip en un directorio.
-### Sintaxis
+	
+</details>
+
+
+<details>
+	<summary>Sintaxis y parametros enviados</summary>
+
 ```bash
 smart_zip ~/ruta comando_saltar nombre_directorio
 ```
 * **Ruta (opcional):** La dirección que se mande tiene que incluir ~/* , dicho de otra forma /home/usuario/*. Si no se manda ninguna ruta entonces se utiliza la ruta del directorio actual en el que se encuentra.
 * **Comando saltar (opcional):** Se utiliza para saltar la pregunta que se da luego de ejecutar el script.
 * **Nombre directorio (obligatorio):** Directorio en el que se va a guardar el resultado de la compresión de archivos. No se puede crear si ya existe un directorio con el mismo nombre.
-El nombre de directorio no acepta los siguientes caracteres:
-	* `Espacio` (Todo lo que se escriba después del espacio no va a ser capturado)
-	* `Vacío`
-	* `/` Barra diagonal
-	* `\\` Barra inversa
-	* `:` Dos puntos
-	* `*` Asterisco
-	* `?` Signo de interrogación
-	* `"` Comillas dobles
-	* `<` Menor que
-	* `>` Mayor que
-	* `|` Barra vertical
-### Funcionamiento
- 1. Crea un directorio merge (nombre_directorio)
- 2. Por orden ascendente va a recorrer los directorios que hay en la ruta mandada o en la que se encuentra
- 3. Comprime un archivo a formato .zip
- 4. Se mueve el archivo .zip al merge
- 5. Elimina el directorio original
- 6. El bucle se da en los pasos 2,3 y 4. El proceso finaliza una vez que no hay más directorios
-### Ejemplo [🏠](#índice)
+
+| **⚠ Caracteres inválidos en el nombre del Directorio ⚠**  |
+| ------------- |
+| Nombre de Directorio vacío      | 
+| Espacio      | 
+| `/` Barra diagonal     |
+|`\` Barra diagonal inversa|
+|`:` Dos puntos|
+|`*` Asterisco|
+|`?` Signo de interrogación|
+|`"` Comillas dobles|
+|`<` Menor que|
+|`>` Mayor que|
+|`\|` Barra vertical|	
+
+</details>
+	
+<details>
+	<summary>Funcionamiento</summary>
+
+1. Crea un directorio merge
+2. Por orden ascendente va a recorrer los directorios que hay en la ruta mandada o en la que se encuentra
+3. Comprime un archivo a formato .zip
+4. Se mueve el archivo .zip al merge
+5. Elimina el directorio original
+6. El bucle se da en los pasos 2,3 y 4. El proceso finaliza una vez que no hay más directorios
+
+</details>
+
+<details>
+	<summary>Ejemplo detallado de cómo funciona</summary>
+
 #### Estado inicial
+
 ```mermaid
 graph LR
 A((/ruta)) --> B[carpeta1]
@@ -428,8 +571,14 @@ style C fill:#7968ff,stroke:#000000,stroke-width:2px
 style D fill:#7968ff,stroke:#000000,stroke-width:2px
 style E fill:#7968ff,stroke:#000000,stroke-width:2px
 
-```
-### Formas de usarlo [🏠](#índice)
+```	
+
+</details>
+
+
+<details>
+	<summary>Formas de usarlo</summary>
+
 ```bash
 smart_zip ~/ruta nombre_directorio 
 # los archivos obtenidos en la ruta guardan en nombre_directorio
@@ -442,36 +591,66 @@ smart_zip nombre_directorio
 smart_zip -sk nombre_directorio 
 # sk significa saltar pregunta
 ```
-# wrap_files
-### Resumen [🏠](#índice)
+
+</details>
+	
+</details>
+
+
+<details>
+	<summary>wrap_files</summary>
+
+
+<details>
+	<summary>Resumen</summary>
+
 Crea un directorio para cada archivo, almacena ese archivo en el directorio creado con su mismo nombre, y almacena esos directorios en un directorio.
-### Sintaxis
+	
+</details>
+
+
+<details>
+	<summary>Sintaxis y parametros enviados</summary>
+
 ```
 wrap_files ~/ruta comando_saltar nombre_directorio
 ```
 * **Ruta (opcional):** La dirección que se mande tiene que incluir ~/* , dicho de otra forma /home/usuario/*. Si no se manda ninguna ruta entonces se utiliza la ruta del directorio actual en el que se encuentra.
 * **Comando saltar (opcional):** Se utiliza para saltar la pregunta que se da luego de ejecutar el script.
 * **Nombre directorio (obligatorio):** Es el nombre del directorio general (merge) en el que se va a guardar el resultado de la creación de directorios para cada archivo. Los directorios se llaman igual que el archivo que contienen. No se puede crear si ya existe un directorio con el mismo nombre.
-El nombre de directorio no acepta los siguientes caracteres:
-	* `Espacio` (Todo lo que se escriba después del espacio no va a ser capturado)
-	* `Vacío`
-	* `/` Barra diagonal
-	* `\\` Barra inversa
-	* `:` Dos puntos
-	* `*` Asterisco
-	* `?` Signo de interrogación
-	* `"` Comillas dobles
-	* `<` Menor que
-	* `>` Mayor que
-	* `|` Barra vertical
-### Funcionamiento
+
+| **⚠ Caracteres inválidos en el nombre del Directorio ⚠**  |
+| ------------- |
+| Nombre de Directorio vacío      | 
+| Espacio      | 
+| `/` Barra diagonal     |
+|`\` Barra diagonal inversa|
+|`:` Dos puntos|
+|`*` Asterisco|
+|`?` Signo de interrogación|
+|`"` Comillas dobles|
+|`<` Menor que|
+|`>` Mayor que|
+|`\|` Barra vertical|	
+
+</details>
+	
+<details>
+	<summary>Funcionamiento</summary>
+
  1. Crea un directorio merge (nombre_directorio).
  2. Por orden ascendente va a recorrer los archivos que hay en la ruta mandada o en la que se encuentra
  3. Crea un directorio para el archivo
  4. Mueve el archivo a su correspondiente directorio
  5. Mueve el directorio del archivo al merge
  6. El bucle se da en los pasos 2,3, 4 y 5. El proceso finaliza una vez que no hay más archivos
-### Ejemplo [🏠](#índice)
+
+
+</details>
+
+<details>
+	<summary>Ejemplo detallado de cómo funciona</summary>
+
 
 #### Estado inicial
 
@@ -509,7 +688,14 @@ style F fill:#6b5dd6,stroke:#000000,stroke-width:2px
 style G fill:#7968ff,stroke:#000000,stroke-width:2px
 style MERGE fill:#2b1c9c,stroke:#000000,stroke-width:2px
 ```
-### Formas de usarlo [🏠](#índice)
+	
+
+</details>
+
+
+<details>
+	<summary>Formas de usarlo</summary>
+
 ```bash
 wrap_files ~/ruta nombre_directorio 
 # los archivos obtenidos en la ruta guardan en nombre_directorio
@@ -522,10 +708,28 @@ wrap_files directory_name
 wrap_files -sk directory_name 
 # sk significa saltar pregunta
 ```
-# wrap_files_in_groups
-### Resumen [🏠](#índice)
+
+</details>
+
+
+	
+</details>
+
+
+<details>
+	<summary>wrap_files_in_groups</summary>
+
+<details>
+	<summary>Resumen</summary>
+
 Almacena un grupo o varios grupos de archivos en uno o varios directorios.
-### Sintaxis
+	
+</details>
+
+
+<details>
+	<summary>Sintaxis y parametros enviados</summary>
+
 ```
 wrap_files_in_groups ~/ruta comando_saltar nombre_grupo rango
 ```
@@ -533,20 +737,28 @@ wrap_files_in_groups ~/ruta comando_saltar nombre_grupo rango
 
 * **Comando saltar (opcional):** Se utiliza para saltar la pregunta y elegir la opción 1 o 2.
 * **Nombre grupo (opcional):** Si no se manda el nombre del grupo previamente se lo va a pedir después. Es un directorio o muchos que almacenan una cantidad de archivos acorde al rango establecido. No se puede crear si ya existe un directorio con el mismo nombre que el grupo.
-El nombre del grupo no acepta los siguientes caracteres:
-	* `Espacio` (Lo que escribas luego del espacio va a ser considerado como otro grupo)
-	* `Vacío`
-	* `/` Barra diagonal
-	* `\\` Barra inversa
-	* `:` Dos puntos
-	* `*` Asterisco
-	* `?` Signo de interrogación
-	* `"` Comillas dobles
-	* `<` Menor que
-	* `>` Mayor que
-	* `|` Barra vertical
 * **Rango (obligatorio):** Formato a-b (ambos números) que sirve para indicar cuántos archivos se quiere seleccionar. Si se pone 1-10 el rango se calcula con la diferencia del extremo superior y el inferior sumándole uno (10-1+1), por lo que seleccionaría los 10 primeros archivos que se encuentren en el orden ascendente. No se aceptan rangos negativos.
-### Funcionamiento
+
+| **⚠ Caracteres inválidos en el nombre del Directorio ⚠**  |
+| ------------- |
+| Nombre de Directorio vacío      | 
+| Espacio      | 
+| `/` Barra diagonal     |
+|`\` Barra diagonal inversa|
+|`:` Dos puntos|
+|`*` Asterisco|
+|`?` Signo de interrogación|
+|`"` Comillas dobles|
+|`<` Menor que|
+|`>` Mayor que|
+|`\|` Barra vertical|
+	
+
+</details>
+	
+<details>
+	<summary>Funcionamiento</summary>
+
  1. Separa los archivos en orden ascendente
  2. Inicializa un contador en 0
  3. Selecciona un rango de archivos
@@ -555,7 +767,10 @@ El nombre del grupo no acepta los siguientes caracteres:
  6. Se mueve el rango de archivos a su grupo correspondiente
  7. El bucle se da en los pasos 3,4,5 y 6. El proceso finaliza cuando ya no hay más rangos
 
-### Ejemplo de la opción 1 [🏠](#índice)
+</details>
+
+<details>
+	<summary>Ejemplo 1 detallado de cómo funciona</summary>
 
 #### Estado inicial
 
@@ -623,7 +838,13 @@ style PL1 fill:#884299,stroke:#000000,stroke-width:2px
 style PL2 fill:#884299,stroke:#000000,stroke-width:2px
 style PL3 fill:#884299,stroke:#000000,stroke-width:2px
 ```
-### Ejemplo de la opción 2 [🏠](#índice)
+	
+
+</details>
+
+<details>
+	<summary>Ejemplo 2 detallado de cómo funciona</summary>
+
 
 #### Estado inicial
 
@@ -689,8 +910,13 @@ style PL1 fill:#884299,stroke:#000000,stroke-width:2px
 style PL2 fill:#884299,stroke:#000000,stroke-width:2px
 style PL3 fill:#884299,stroke:#000000,stroke-width:2px
 ```
-### Formas de usarlo [🏠](#índice)
-**[ La condición necesaria para ejecutar el script en este caso es que haya 10 archivos en el directorio ]**
+
+</details>
+
+
+<details>
+	<summary>Formas de usarlo</summary>
+
 ```bash
 wrap_files_in_groups ~/ruta 1-10
 # selecciona un grupo de 10 archivos y luego le toca al usuario decidir entre opcion 1 o 2
@@ -726,3 +952,22 @@ wrap_files_in_groups -sk2 nombre_grupo_A nombre_grupo_B nombre_grupo_C 1-2 3-6 7
 # cantidad de nombre_grupo = cantidad de grupos (cada rango es un grupo)
 # nombre_grupo_A_1: 2 archivos, nombre_grupo_B_2: 4 archivos, nombre_grupo_C_3: 4 archivos
 ```
+
+</details>
+
+
+	
+</details>
+
+
+
+
+
+
+</details>
+
+
+
+
+
+
