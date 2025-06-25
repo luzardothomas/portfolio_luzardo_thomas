@@ -128,58 +128,13 @@ extract_directory_files ~/ruta comando_saltar nombre_directorio
 	
 #### Estado inicial
 
-```mermaid
-graph LR
-A((/ruta)) --> B[carpeta1] --> AR1[archivo1.*]
-B --> C[subcarpeta1]
-C --> AR2[archivo2.*]
-A --> D[carpeta2] --> AR3[archivo3.*]
-D --> E[subcarpeta2]
-E --> AR4[archivo4.*]
-E --> AR5[archivo5.*]
-E --> F[subcarpeta3]
-F --> AR6[archivo6.*]
-F --> AR7[archivo7.*]
+![image](https://github.com/user-attachments/assets/7a3f3066-1680-4705-a2c6-a5cf30a8ee95)
 
-style A fill:#006DB2,stroke:#000000,stroke-width:2px
-style B fill:#2b1c9c,stroke:#000000,stroke-width:2px
-style C fill:#6b5dd6,stroke:#000000,stroke-width:2px
-style D fill:#2b1c9c,stroke:#000000,stroke-width:2px
-style E fill:#6b5dd6,stroke:#000000,stroke-width:2px
-style F fill:#6b5dd6,stroke:#000000,stroke-width:2px
-
-style AR1 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR2 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR3 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR4 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR5 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR6 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR7 fill:#7968ff,stroke:#000000,stroke-width:2px
-```
 ![foto1](https://github.com/user-attachments/assets/6005f385-4dc0-4e38-b596-aca107b8e133)
 
 #### Estado final
-```mermaid
-graph LR
 
-A((/ruta)) --> B[nombre_directorio] --> AR1[archivo1.*]
-B --> AR2[archivo2.*]
-B --> AR3[archivo3.*]
-B --> AR4[archivo4.*]
-B --> AR5[archivo5.*]
-B --> AR6[archivo6.*]
-B --> AR7[archivo7.*]
-
-style A fill:#006DB2,stroke:#000000,stroke-width:2px
-style B fill:#6b5dd6,stroke:#000000,stroke-width:2px
-style AR1 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR2 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR3 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR4 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR5 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR6 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR7 fill:#7968ff,stroke:#000000,stroke-width:2px
-```
+![image](https://github.com/user-attachments/assets/280b4c1b-08be-4179-99f5-8774711c41f5)
 
 </details>
 
@@ -264,36 +219,13 @@ rename_files ~/ruta comando_saltar nombre_plantilla
 	
 #### Estado inicial
 
-```mermaid
-graph LR
+![image](https://github.com/user-attachments/assets/96feb98c-6b09-4a49-a590-1ac81f45f776)
 
-A((/ruta)) --> B[archivo1.*]
-A --> C[archivo2.*]
-A --> D[archivo3.*]
-
-style A fill:#006DB2,stroke:#000000,stroke-width:2px
-
-style B fill:#E48200,stroke:#000000,stroke-width:2px
-style C fill:#E48200,stroke:#000000,stroke-width:2px
-style D fill:#E48200,stroke:#000000,stroke-width:2px
-```
 ![foto2](https://github.com/user-attachments/assets/ae71b943-2289-4122-8b51-0032925f9f36)
 
 #### Estado final
-```mermaid
-graph LR
 
-A((/ruta)) --> B[nombre_plantilla1.*]
-A --> C[nombre_plantilla2.*]
-A --> D[nombre_plantilla3.*]
-
-style A fill:#006DB2,stroke:#000000,stroke-width:2px
-
-style B fill:#E48200,stroke:#000000,stroke-width:2px
-style C fill:#E48200,stroke:#000000,stroke-width:2px
-style D fill:#E48200,stroke:#000000,stroke-width:2px
-
-```
+![image](https://github.com/user-attachments/assets/dcafe4b7-7f55-4b23-8e55-97b3a28a0ed3)
 
 </details>
 
@@ -375,71 +307,13 @@ smart_unzip ~/ruta comando_saltar nombre_directorio
 
 #### Estado inicial
 
-```mermaid
-graph LR
+![image](https://github.com/user-attachments/assets/85218118-008b-4034-80f9-2beb8b1d326b)
 
-A((/ruta)) --> B[contenedor1.zip]
-A --> C[contenedor2.zip]
-A --> D[contenedor3.zip]
-
-E[contenedor1.zip] --> F[carpeta1] --> G[carpeta2]
-G --> AR1[archivo1.*]
-G --> AR2[archivo2.*]
-
-H[contenedor2.zip] --> I[carpeta1] --> J[carpeta2]
-J --> AR3[archivo3.*]
-J --> AR4[archivo4.*]
-
-K[contenedor2.zip] --> L[carpeta1] --> M[carpeta2]
-M --> AR5[archivo5.*]
-M --> AR6[archivo6.*]
-
-style A fill:#006DB2,stroke:#000000,stroke-width:2px
-style B fill:#2b1c9c,stroke:#000000,stroke-width:2px
-style C fill:#2b1c9c,stroke:#000000,stroke-width:2px
-style D fill:#2b1c9c,stroke:#000000,stroke-width:2px
-style E fill:#2b1c9c,stroke:#000000,stroke-width:2px
-style F fill:#6b5dd6,stroke:#000000,stroke-width:2px
-style G fill:#6b5dd6,stroke:#000000,stroke-width:2px
-style H fill:#2b1c9c,stroke:#000000,stroke-width:2px
-style I fill:#6b5dd6,stroke:#000000,stroke-width:2px
-style J fill:#6b5dd6,stroke:#000000,stroke-width:2px
-style K fill:#2b1c9c,stroke:#000000,stroke-width:2px
-style L fill:#6b5dd6,stroke:#000000,stroke-width:2px
-style M fill:#6b5dd6,stroke:#000000,stroke-width:2px
-
-style AR1 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR2 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR3 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR4 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR5 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR6 fill:#7968ff,stroke:#000000,stroke-width:2px
-```
 ![foto3](https://github.com/user-attachments/assets/55a8145d-679a-4906-99a2-041f6cf036a3)
 
 #### Estado final
-```mermaid
-graph LR
 
-A((/ruta)) --> B[nombre_directorio]
-B --> AR1[archivo1.*]
-B --> AR2[archivo2.*]
-B --> AR3[archivo3.*]
-B --> AR4[archivo4.*]
-B --> AR5[archivo5.*]
-B --> AR6[archivo6.*]
-
-style A fill:#006DB2,stroke:#000000,stroke-width:2px
-style B fill:#6b5dd6,stroke:#000000,stroke-width:2px
-
-style AR1 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR2 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR3 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR4 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR5 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR6 fill:#7968ff,stroke:#000000,stroke-width:2px
-
-```
+![image](https://github.com/user-attachments/assets/3932a2f6-bb76-4c6f-b3ca-cba8e35b2cfb)
 	
 </details>
 
@@ -520,59 +394,14 @@ smart_zip ~/ruta comando_saltar nombre_directorio
 
 #### Estado inicial
 
-```mermaid
-graph LR
-A((/ruta)) --> B[carpeta1]
-A --> D[carpeta2]
-A --> F[carpeta3]
+![image](https://github.com/user-attachments/assets/3b421764-b8dd-4737-a9b1-50d25d9d10a1)
 
-B --> C[subcarpeta1]
-C --> AR1[archivo1.*]
-C --> AR2[archivo2.*]
-
-D --> E[subcarpeta2]
-E --> AR3[archivo3.*]
-E --> AR4[archivo4.*]
-
-F --> G[subcarpeta3]
-G --> AR5[archivo5.*]
-G --> AR6[archivo6.*]
-
-style A fill:#006DB2,stroke:#000000,stroke-width:2px
-style B fill:#2b1c9c,stroke:#000000,stroke-width:2px
-style C fill:#6b5dd6,stroke:#000000,stroke-width:2px
-style D fill:#2b1c9c,stroke:#000000,stroke-width:2px
-style E fill:#6b5dd6,stroke:#000000,stroke-width:2px
-style F fill:#2b1c9c,stroke:#000000,stroke-width:2px
-style G fill:#6b5dd6,stroke:#000000,stroke-width:2px
-
-style AR1 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR2 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR3 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR4 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR5 fill:#7968ff,stroke:#000000,stroke-width:2px
-style AR6 fill:#7968ff,stroke:#000000,stroke-width:2px
-
-```
 ![foto4](https://github.com/user-attachments/assets/ca637d7e-6d39-4727-b0ff-f5489a9467af)
 
 #### Estado final
-```mermaid
-graph LR
 
-A((/ruta)) --> B[nombre_directorio]
-B --> C[carpeta1.zip]
-B --> D[carpeta2.zip]
-B --> E[carpeta3.zip]
-
-style A fill:#006DB2,stroke:#000000,stroke-width:2px
-style B fill:#6b5dd6,stroke:#000000,stroke-width:2px
-style C fill:#7968ff,stroke:#000000,stroke-width:2px
-style D fill:#7968ff,stroke:#000000,stroke-width:2px
-style E fill:#7968ff,stroke:#000000,stroke-width:2px
-
-```	
-
+![image](https://github.com/user-attachments/assets/543de425-b38c-4844-acea-dfa02a61254d)
+	
 </details>
 
 
@@ -655,41 +484,13 @@ wrap_files ~/ruta comando_saltar nombre_directorio
 
 #### Estado inicial
 
-```mermaid
-graph LR
+![image](https://github.com/user-attachments/assets/5416e060-4ff2-4092-a332-7882faa94844)
 
-A((/ruta))
-A --> B[archivo1.*]
-A --> C[archivo2.*]
-A --> D[archivo3.*]
-
-style A fill:#006DB2,stroke:#000000,stroke-width:2px
-style B fill:#7968ff,stroke:#000000,stroke-width:2px
-style C fill:#7968ff,stroke:#000000,stroke-width:2px
-style D fill:#7968ff,stroke:#000000,stroke-width:2px
-```
 ![foto5](https://github.com/user-attachments/assets/542b98a6-573d-4d57-93c9-719a9638a269)
 
 #### Estado final
-```mermaid
-graph LR
 
-A((/ruta)) --> MERGE
-MERGE[nombre_directorio]
-MERGE --> B[archivo1] --> C[archivo1.*]
-MERGE --> D[archivo2] --> E[archivo2.*]
-MERGE --> F[archivo3] --> G[archivo3.*]
-
-style A fill:#006DB2,stroke:#000000,stroke-width:2px
-style B fill:#6b5dd6,stroke:#000000,stroke-width:2px
-style C fill:#7968ff,stroke:#000000,stroke-width:2px
-style D fill:#6b5dd6,stroke:#000000,stroke-width:2px
-style E fill:#7968ff,stroke:#000000,stroke-width:2px
-style F fill:#6b5dd6,stroke:#000000,stroke-width:2px
-style G fill:#7968ff,stroke:#000000,stroke-width:2px
-style MERGE fill:#2b1c9c,stroke:#000000,stroke-width:2px
-```
-	
+![image](https://github.com/user-attachments/assets/ee402a1a-8e60-40e0-a90f-ac96a9e8a608)
 
 </details>
 
@@ -775,70 +576,14 @@ wrap_files_in_groups ~/ruta comando_saltar nombre_grupo rango
 
 #### Estado inicial
 
-```mermaid
-graph LR
-A((/ruta))
-A --> B[archivo1.*] --> grupo1{grupo 1}
-A --> C[archivo2.*] --> grupo1{grupo 1}
-A --> D[archivo3.*] --> grupo2{grupo 2}
-A --> E[archivo4.*] --> grupo2{grupo 2}
-A --> F[archivo5.*] --> grupo3{grupo 3}
-A --> G[archivo6.*] --> grupo3{grupo 3}
-A --> H[archivo7.*] --> grupo3{grupo 3}
+![image](https://github.com/user-attachments/assets/6612f735-c02c-4735-b283-a065b633888e)
 
-style A fill:#006DB2,stroke:#000000,stroke-width:2px
-
-style B fill:#884299,stroke:#000000,stroke-width:2px
-style C fill:#884299,stroke:#000000,stroke-width:2px
-style D fill:#884299,stroke:#000000,stroke-width:2px
-style E fill:#884299,stroke:#000000,stroke-width:2px
-style F fill:#884299,stroke:#000000,stroke-width:2px
-style G fill:#884299,stroke:#000000,stroke-width:2px
-style H fill:#884299,stroke:#000000,stroke-width:2px
-
-R[Rangos] -- grupo1 --> Rango1[1-2] -- grupo2 --> Rango2[3-4] -- grupo3 --> Rango3[5-7]
-
-style grupo1 fill:#C59FCB,stroke:#000000,stroke-width:2px
-style grupo2 fill:#C59FCB,stroke:#000000,stroke-width:2px
-style grupo3 fill:#C59FCB,stroke:#000000,stroke-width:2px
-
-style R fill:#008D8C,stroke:#000000,stroke-width:2px
-style Rango1 fill:#55A38B,stroke:#000000,stroke-width:2px
-style Rango2 fill:#55A38B,stroke:#000000,stroke-width:2px
-style Rango3 fill:#55A38B,stroke:#000000,stroke-width:2px
-```
 ![foto6 1](https://github.com/user-attachments/assets/2bf19032-6538-4610-91b6-d9a61ab103c8)
 
 #### Estado final
-```mermaid
-graph LR
 
-A((/ruta))
-A --> PL1[nombre_plantilla_1]
-A --> PL2[nombre_plantilla_2]
-A --> PL3[nombre_plantilla_3]
+![image](https://github.com/user-attachments/assets/09ae6f9c-b13d-4f31-a343-c1b0122a1ba8)
 
-PL1 --> B[archivo1.*]
-PL1 --> C[archivo2.*]
-PL2 --> D[archivo3.*]
-PL2 --> E[archivo4.*]
-PL3 --> F[archivo5.*]
-PL3 --> G[archivo6.*]
-PL3 --> H[archivo7.*]
-
-style A fill:#006DB2,stroke:#000000,stroke-width:2px
-style B fill:#C59FCB,stroke:#000000,stroke-width:2px
-style C fill:#C59FCB,stroke:#000000,stroke-width:2px
-style D fill:#C59FCB,stroke:#000000,stroke-width:2px
-style E fill:#C59FCB,stroke:#000000,stroke-width:2px
-style F fill:#C59FCB,stroke:#000000,stroke-width:2px
-style G fill:#C59FCB,stroke:#000000,stroke-width:2px
-style H fill:#C59FCB,stroke:#000000,stroke-width:2px
-
-style PL1 fill:#884299,stroke:#000000,stroke-width:2px
-style PL2 fill:#884299,stroke:#000000,stroke-width:2px
-style PL3 fill:#884299,stroke:#000000,stroke-width:2px
-```
 	
 
 </details>
@@ -849,68 +594,13 @@ style PL3 fill:#884299,stroke:#000000,stroke-width:2px
 
 #### Estado inicial
 
-```mermaid
-graph LR
-A((/ruta))
-A --> B[archivo1.*] --> grupo1{grupo 1}
-A --> C[archivo2.*] --> grupo1{grupo 1}
-A --> D[archivo3.*] --> grupo2{grupo 2}
-A --> E[archivo4.*] --> grupo2{grupo 2}
-A --> F[archivo5.*] --> grupo3{grupo 3}
-A --> G[archivo6.*] --> grupo3{grupo 3}
-A --> H[archivo7.*] --> grupo3{grupo 3}
+![image](https://github.com/user-attachments/assets/57800075-9b0e-4af1-bec9-f62f5a598672)
 
-style A fill:#006DB2,stroke:#000000,stroke-width:2px
-style B fill:#884299,stroke:#000000,stroke-width:2px
-style C fill:#884299,stroke:#000000,stroke-width:2px
-style D fill:#884299,stroke:#000000,stroke-width:2px
-style E fill:#884299,stroke:#000000,stroke-width:2px
-style F fill:#884299,stroke:#000000,stroke-width:2px
-style G fill:#884299,stroke:#000000,stroke-width:2px
-style H fill:#884299,stroke:#000000,stroke-width:2px
-
-R[Rangos] -- grupo1 --> Rango1[1-2] -- grupo2 --> Rango2[3-4] -- grupo3 --> Rango3[5-7]
-
-style grupo1 fill:#C59FCB,stroke:#000000,stroke-width:2px
-style grupo2 fill:#C59FCB,stroke:#000000,stroke-width:2px
-style grupo3 fill:#C59FCB,stroke:#000000,stroke-width:2px
-
-style R fill:#008D8C,stroke:#000000,stroke-width:2px
-style Rango1 fill:#55A38B,stroke:#000000,stroke-width:2px
-style Rango2 fill:#55A38B,stroke:#000000,stroke-width:2px
-style Rango3 fill:#55A38B,stroke:#000000,stroke-width:2px
-```
 ![foto6 2](https://github.com/user-attachments/assets/91a6fe71-aa11-436a-b6e9-9744520f29b2)
 
 #### Estado final
-```mermaid
-graph LR
 
-A((/ruta))
-A --> PL1[nombre_grupo_A_1]
-A --> PL2[nombre_grupo_B_2]
-A --> PL3[nombre_grupo_C_3]
-PL1 --> B[archivo1.*]
-PL1 --> C[archivo2.*]
-PL2 --> D[archivo3.*]
-PL2 --> E[archivo4.*]
-PL3 --> F[archivo5.*]
-PL3 --> G[archivo6.*]
-PL3 --> H[archivo7.*]
-
-style A fill:#006DB2,stroke:#000000,stroke-width:2px
-style B fill:#C59FCB,stroke:#000000,stroke-width:2px
-style C fill:#C59FCB,stroke:#000000,stroke-width:2px
-style D fill:#C59FCB,stroke:#000000,stroke-width:2px
-style E fill:#C59FCB,stroke:#000000,stroke-width:2px
-style F fill:#C59FCB,stroke:#000000,stroke-width:2px
-style G fill:#C59FCB,stroke:#000000,stroke-width:2px
-style H fill:#C59FCB,stroke:#000000,stroke-width:2px
-
-style PL1 fill:#884299,stroke:#000000,stroke-width:2px
-style PL2 fill:#884299,stroke:#000000,stroke-width:2px
-style PL3 fill:#884299,stroke:#000000,stroke-width:2px
-```
+![image](https://github.com/user-attachments/assets/99efe177-77ef-4601-9c4f-264240a1c2de)
 
 </details>
 
@@ -964,8 +654,6 @@ wrap_files_in_groups -sk2 nombre_grupo_A nombre_grupo_B nombre_grupo_C 1-2 3-6 7
 
  
 </details>
-
-
 
 
 
