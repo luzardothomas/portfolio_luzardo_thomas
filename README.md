@@ -44,7 +44,6 @@ bash installer.sh
 1. **Install:** Instala un script o todos a la vez.
 2. **Uninstall:** Desinstala un script o todos a la vez.
 3.  **Reinstall:** Reinstala todos los scripts a la vez.
-4.  
 </details>
 
 	
