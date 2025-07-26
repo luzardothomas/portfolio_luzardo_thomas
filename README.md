@@ -20,7 +20,7 @@
 
 ## Gestor en Excel
 
-### Registrar Productos
+### Registrar y modificar Productos
 
 [![Screenshot from 2025-07-26 11-18-06](https://github.com/user-attachments/assets/ea27de39-a572-4777-94eb-ba19aa68c6a2)](https://docs.google.com/spreadsheets/d/1bAWnvUEpwE99F7vQJWXQyTF9YEDViv7gL2M8NR58hO0/edit?usp=sharing)
 
