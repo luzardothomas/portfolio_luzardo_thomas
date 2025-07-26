@@ -26,11 +26,12 @@
 
 ### Registrar Ventas
 
-[![Screenshot from 2025-07-26 11-24-31](https://github.com/user-attachments/assets/97228c34-f37e-485d-aa56-0e3ccc59879e)](https://docs.google.com/spreadsheets/d/1bAWnvUEpwE99F7vQJWXQyTF9YEDViv7gL2M8NR58hO0/edit?usp=sharing)
+[![Screenshot from 2025-07-26 10-48-13](https://github.com/user-attachments/assets/2e81672a-444b-4c71-96c8-126dba39081b)](https://docs.google.com/spreadsheets/d/1bAWnvUEpwE99F7vQJWXQyTF9YEDViv7gL2M8NR58hO0/edit?usp=sharing)
 
 ### Registrar Stock
 
-[![Screenshot from 2025-07-26 10-48-13](https://github.com/user-attachments/assets/2e81672a-444b-4c71-96c8-126dba39081b)](https://docs.google.com/spreadsheets/d/1bAWnvUEpwE99F7vQJWXQyTF9YEDViv7gL2M8NR58hO0/edit?usp=sharing)
+[![Screenshot from 2025-07-26 11-24-31](https://github.com/user-attachments/assets/97228c34-f37e-485d-aa56-0e3ccc59879e)](https://docs.google.com/spreadsheets/d/1bAWnvUEpwE99F7vQJWXQyTF9YEDViv7gL2M8NR58hO0/edit?usp=sharing)
+
 
 ## Gestor desde una Webapp que actualiza el Excel
 
