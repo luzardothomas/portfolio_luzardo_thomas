@@ -18,7 +18,7 @@
 
 ## Imágenes con Hipervínculos
 
-## Gestor en Excel
+## Gestor en Excel (Solo lectura)
 
 ### Registrar y modificar Productos
 
