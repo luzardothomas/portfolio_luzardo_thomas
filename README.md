@@ -63,7 +63,7 @@ Por último, la app incluye soporte para **servidores SMB**, permitiendo conecta
 <img width="905" height="237" alt="Screenshot from 2026-01-03 12-59-32" src="https://github.com/user-attachments/assets/707f559b-ce47-4f01-a4b6-be0ac7e3998f" />
 
 ### Acciones avanzadas
-<img width="992" height="318" alt="Screenshot from 2026-01-03 13-22-48" src="https://github.com/user-attachments/assets/56227da0-f19e-4d10-9d1b-814faef0a6f8" />
+<img width="1007" height="235" alt="Screenshot from 2026-01-03 13-26-05" src="https://github.com/user-attachments/assets/6b92058c-bfce-43c9-84c6-d11cc3ef8bbe" />
 <img width="992" height="318" alt="Screenshot from 2026-01-03 13-22-48" src="https://github.com/user-attachments/assets/4ea86edb-6a12-41e8-9e3a-d8bcab4ec5bf" />
 <img width="783" height="226" alt="Screenshot from 2026-01-03 12-59-59" src="https://github.com/user-attachments/assets/9b0c4018-8e07-4d19-8d6f-66a0108ac998" />
 <img width="630" height="232" alt="Screenshot from 2026-01-03 13-00-06" src="https://github.com/user-attachments/assets/882bc9c8-e23d-48fd-8ae3-19a9b8b327a8" />
