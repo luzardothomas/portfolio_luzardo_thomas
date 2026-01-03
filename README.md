@@ -51,26 +51,22 @@ Por último, la app incluye soporte para **servidores SMB**, permitiendo conecta
 ## Funcionalidades
 
 ### Acciones principales
-
-<img width="1037" height="376" alt="Screenshot from 2026-01-03 12-58-10" src="https://github.com/user-attachments/assets/d3eb3e7e-2d73-41ed-9d80-ef3c22aea5b2" />
-<img width="1023" height="272" alt="Screenshot from 2026-01-03 12-58-41" src="https://github.com/user-attachments/assets/6ac5f4f0-db87-4ec1-a497-e274da38fa2f" />
-<img width="863" height="286" alt="Screenshot from 2026-01-03 12-58-51" src="https://github.com/user-attachments/assets/a95b829f-f986-4031-8505-672aeb26f9ee" />
+<img width="1013" height="243" alt="Screenshot from 2026-01-03 12-58-10" src="https://github.com/user-attachments/assets/b3af376d-aeca-4970-bde3-eefd84b6561d" />
+<img width="1009" height="241" alt="Screenshot from 2026-01-03 13-20-52" src="https://github.com/user-attachments/assets/01fa70df-5741-4d95-b835-52dba302dff2" />
+<img width="768" height="201" alt="Screenshot from 2026-01-03 13-21-45" src="https://github.com/user-attachments/assets/2fb4fa67-4d78-4971-a1f4-0f326054bfab" />
 <img width="808" height="226" alt="Screenshot from 2026-01-03 12-59-01" src="https://github.com/user-attachments/assets/2c1e2102-7a2f-40c2-8b3a-d41b978d9ef3" />
 
 ### Armado de reproducción
-
-<img width="1023" height="275" alt="Screenshot from 2026-01-03 12-59-10" src="https://github.com/user-attachments/assets/9d73d52b-4239-496a-86a2-88b27c30f141" />
+<img width="1007" height="199" alt="Screenshot from 2026-01-03 12-59-10" src="https://github.com/user-attachments/assets/bdf08cfd-cc3b-4966-bc48-ada51ff8e35d" />
 <img width="1018" height="231" alt="Screenshot from 2026-01-03 12-59-17" src="https://github.com/user-attachments/assets/56d4c718-5c4c-4810-9980-39a68716e9e3" />
 <img width="1018" height="231" alt="Screenshot from 2026-01-03 12-59-23" src="https://github.com/user-attachments/assets/8126180c-d59f-4b2b-9fd2-3fd3ea084eca" />
 <img width="905" height="237" alt="Screenshot from 2026-01-03 12-59-32" src="https://github.com/user-attachments/assets/707f559b-ce47-4f01-a4b6-be0ac7e3998f" />
 
 ### Acciones avanzadas
-
-<img width="1026" height="285" alt="Screenshot from 2026-01-03 12-59-46" src="https://github.com/user-attachments/assets/ce04a60f-1651-414b-8ee3-95b2223198f6" />
-<img width="1022" height="377" alt="Screenshot from 2026-01-03 12-59-52" src="https://github.com/user-attachments/assets/e6f063c3-535c-42be-900a-5d1dcdb3fceb" />
-<img width="804" height="242" alt="Screenshot from 2026-01-03 12-59-59" src="https://github.com/user-attachments/assets/c45f3a86-c7cd-4186-9fc1-636810fb54c5" />
+<img width="992" height="318" alt="Screenshot from 2026-01-03 13-22-48" src="https://github.com/user-attachments/assets/56227da0-f19e-4d10-9d1b-814faef0a6f8" />
+<img width="992" height="318" alt="Screenshot from 2026-01-03 13-22-48" src="https://github.com/user-attachments/assets/4ea86edb-6a12-41e8-9e3a-d8bcab4ec5bf" />
+<img width="783" height="226" alt="Screenshot from 2026-01-03 12-59-59" src="https://github.com/user-attachments/assets/9b0c4018-8e07-4d19-8d6f-66a0108ac998" />
 <img width="630" height="232" alt="Screenshot from 2026-01-03 13-00-06" src="https://github.com/user-attachments/assets/882bc9c8-e23d-48fd-8ae3-19a9b8b327a8" />
-
 
 
 </details>
