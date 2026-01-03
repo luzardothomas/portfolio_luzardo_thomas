@@ -1,3 +1,80 @@
+# Proyecto de TV + Mobile
+
+<details>
+	<summary>Proyecto</summary>
+	
+**Tecnologías utilizadas**
+	
+<p align="center">
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
+  <img src="https://img.shields.io/badge/VLC-FF8800?style=for-the-badge&logo=videolan&logoColor=white" alt="VLC" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+
+</p>
+
+## Objetivos de la APP
+
+**WatchOffline** está diseñada para combinar la potencia de **VLC** con una **experiencia de usuario inspirada en Netflix**, facilitando la reproducción de contenido multimedia de forma simple, consistente e intuitiva.
+
+El objetivo principal de la aplicación es permitir el consumo de contenido **sin depender de una conexión a internet**, una vez que los datos han sido cargados. Para ello, WatchOffline ofrece funcionalidades como:
+
+- **Salteo automático de intros**
+- **Armado de playlists aleatorias**
+- **Navegación optimizada** para **Android TV** y **dispositivos móviles**
+
+Además, WatchOffline gestiona de forma **global y persistente** los **tracks de audio y subtítulos**, replicando un comportamiento típico de plataformas como Netflix.  
+Por ejemplo, si el usuario selecciona **audio en inglés** y **subtítulos en español**, la aplicación aplicará automáticamente esa configuración a todo el contenido compatible, siempre que el archivo multimedia lo permita, sin necesidad de realizar ajustes manuales en cada reproducción.
+
+Por último, la app incluye soporte para **servidores SMB**, permitiendo conectarse a **uno o múltiples servidores** para importar y gestionar contenido de manera flexible, manteniendo siempre el **control local del usuario** sobre sus archivos.
+
+
+## TV
+
+<img width="1075" height="607" alt="Screenshot from 2026-01-03 12-38-28" src="https://github.com/user-attachments/assets/748dc510-4e05-4c08-87a8-ec8978a52e2f" />
+<img width="1075" height="607" alt="Screenshot from 2026-01-03 12-38-48" src="https://github.com/user-attachments/assets/56919b59-3e8e-437e-9b50-38ad0f6b08b0" />
+<img width="1075" height="607" alt="Screenshot from 2026-01-03 12-39-10" src="https://github.com/user-attachments/assets/43c3fdc5-d7a5-4742-8179-e613e18606a8" />
+<img width="1075" height="607" alt="Screenshot from 2026-01-03 12-39-23" src="https://github.com/user-attachments/assets/e13ca44e-ad81-40f4-9ef5-777cff7054dd" />
+<img width="692" height="396" alt="Screenshot from 2026-01-03 12-44-35" src="https://github.com/user-attachments/assets/2be09bc2-0514-44f6-9917-50ee29806090" />
+<img width="692" height="396" alt="Screenshot from 2026-01-03 12-46-54" src="https://github.com/user-attachments/assets/10a3968a-6100-473f-b4b0-bd959ac13db3" />
+
+## Mobile
+
+<img width="706" height="319" alt="Screenshot from 2026-01-03 12-42-01" src="https://github.com/user-attachments/assets/a4ab7012-56bd-4dec-9cf1-a74c963e5a62" />
+<img width="706" height="319" alt="Screenshot from 2026-01-03 12-42-10" src="https://github.com/user-attachments/assets/b7e1954d-49ba-42cb-b1eb-e7dd4dd99196" />
+<img width="706" height="319" alt="Screenshot from 2026-01-03 12-42-53" src="https://github.com/user-attachments/assets/6da2deeb-06c8-46af-aead-660b052e2cbf" />
+<img width="706" height="319" alt="Screenshot from 2026-01-03 12-43-00" src="https://github.com/user-attachments/assets/86751389-a931-4469-b212-7e77ff985339" />
+<img width="706" height="319" alt="Screenshot from 2026-01-03 12-43-53" src="https://github.com/user-attachments/assets/d3a18125-b60c-40fe-9168-408aded18cbd" />
+
+## Funcionalidades
+
+### Acciones principales
+
+<img width="1037" height="376" alt="Screenshot from 2026-01-03 12-58-10" src="https://github.com/user-attachments/assets/d3eb3e7e-2d73-41ed-9d80-ef3c22aea5b2" />
+<img width="1023" height="272" alt="Screenshot from 2026-01-03 12-58-41" src="https://github.com/user-attachments/assets/6ac5f4f0-db87-4ec1-a497-e274da38fa2f" />
+<img width="863" height="286" alt="Screenshot from 2026-01-03 12-58-51" src="https://github.com/user-attachments/assets/a95b829f-f986-4031-8505-672aeb26f9ee" />
+<img width="808" height="226" alt="Screenshot from 2026-01-03 12-59-01" src="https://github.com/user-attachments/assets/2c1e2102-7a2f-40c2-8b3a-d41b978d9ef3" />
+
+### Armado de reproducción
+
+<img width="1023" height="275" alt="Screenshot from 2026-01-03 12-59-10" src="https://github.com/user-attachments/assets/9d73d52b-4239-496a-86a2-88b27c30f141" />
+<img width="1018" height="231" alt="Screenshot from 2026-01-03 12-59-17" src="https://github.com/user-attachments/assets/56d4c718-5c4c-4810-9980-39a68716e9e3" />
+<img width="1018" height="231" alt="Screenshot from 2026-01-03 12-59-23" src="https://github.com/user-attachments/assets/8126180c-d59f-4b2b-9fd2-3fd3ea084eca" />
+<img width="905" height="237" alt="Screenshot from 2026-01-03 12-59-32" src="https://github.com/user-attachments/assets/707f559b-ce47-4f01-a4b6-be0ac7e3998f" />
+
+### Acciones avanzadas
+
+<img width="1026" height="285" alt="Screenshot from 2026-01-03 12-59-46" src="https://github.com/user-attachments/assets/ce04a60f-1651-414b-8ee3-95b2223198f6" />
+<img width="1022" height="377" alt="Screenshot from 2026-01-03 12-59-52" src="https://github.com/user-attachments/assets/e6f063c3-535c-42be-900a-5d1dcdb3fceb" />
+<img width="804" height="242" alt="Screenshot from 2026-01-03 12-59-59" src="https://github.com/user-attachments/assets/c45f3a86-c7cd-4186-9fc1-636810fb54c5" />
+<img width="630" height="232" alt="Screenshot from 2026-01-03 13-00-06" src="https://github.com/user-attachments/assets/882bc9c8-e23d-48fd-8ae3-19a9b8b327a8" />
+
+
+
+</details>
+
 # Proyectos hechos para Clientes
 
 <details>
