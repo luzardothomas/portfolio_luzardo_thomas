@@ -19,16 +19,26 @@
 
 **WatchOffline** está diseñada para combinar la potencia de **VLC** con una **experiencia de usuario inspirada en Netflix**, facilitando la reproducción de contenido multimedia de forma simple, consistente e intuitiva.
 
-El objetivo principal de la aplicación es permitir el consumo de contenido **sin depender de una conexión a internet**, una vez que los datos han sido cargados. Para ello, WatchOffline ofrece funcionalidades como:
+El objetivo principal de la aplicación es permitir el consumo de contenido **sin depender de una conexión a internet**, una vez que los datos necesarios han sido cargados. El contenido puede importarse desde:
 
-- **Salteo automático de intros**
+- **Pendrives**
+- **Discos duros externos**
+- **Almacenamiento interno del dispositivo**
+
+Este contenido queda disponible para su reproducción **completamente offline**, exceptuando la **carga inicial de metadatos**, que se obtiene desde una **API**.
+
+Para mejorar la experiencia de uso, WatchOffline ofrece funcionalidades como:
+
+- **Saltear intros de series**
 - **Armado de playlists aleatorias**
-- **Navegación optimizada** para **Android TV** y **dispositivos móviles**
+- **Navegación optimizada** tanto para **Android TV** como para **dispositivos móviles**
 
 Además, WatchOffline gestiona de forma **global y persistente** los **tracks de audio y subtítulos**, replicando un comportamiento típico de plataformas como Netflix.  
 Por ejemplo, si el usuario selecciona **audio en inglés** y **subtítulos en español**, la aplicación aplicará automáticamente esa configuración a todo el contenido compatible, siempre que el archivo multimedia lo permita, sin necesidad de realizar ajustes manuales en cada reproducción.
 
-Por último, la app incluye soporte para **servidores SMB**, permitiendo conectarse a **uno o múltiples servidores** para importar y gestionar contenido de manera flexible, manteniendo siempre el **control local del usuario** sobre sus archivos.
+Como alternativa al almacenamiento local, la aplicación incluye soporte para **servidores SMB**, permitiendo conectarse a **uno o múltiples servidores** para importar y reproducir contenido de manera flexible.  
+A diferencia del contenido local, el uso de SMB **requiere conexión a red**, pero mantiene siempre el **control local del usuario** sobre sus archivos, sin depender de servicios externos.
+
 
 
 ## TV
