@@ -42,21 +42,17 @@ A diferencia del contenido local, el uso de SMB **requiere conexión a red**, pe
 
 
 ## TV
-
-<img width="1075" height="607" alt="Screenshot from 2026-01-03 12-38-28" src="https://github.com/user-attachments/assets/748dc510-4e05-4c08-87a8-ec8978a52e2f" />
-<img width="1075" height="607" alt="Screenshot from 2026-01-03 12-38-48" src="https://github.com/user-attachments/assets/56919b59-3e8e-437e-9b50-38ad0f6b08b0" />
-<img width="1075" height="607" alt="Screenshot from 2026-01-03 12-39-10" src="https://github.com/user-attachments/assets/43c3fdc5-d7a5-4742-8179-e613e18606a8" />
-<img width="1075" height="607" alt="Screenshot from 2026-01-03 12-39-23" src="https://github.com/user-attachments/assets/e13ca44e-ad81-40f4-9ef5-777cff7054dd" />
-<img width="692" height="396" alt="Screenshot from 2026-01-03 12-44-35" src="https://github.com/user-attachments/assets/2be09bc2-0514-44f6-9917-50ee29806090" />
-<img width="692" height="396" alt="Screenshot from 2026-01-03 12-46-54" src="https://github.com/user-attachments/assets/10a3968a-6100-473f-b4b0-bd959ac13db3" />
+<img width="1043" height="589" alt="Screenshot from 2026-01-18 15-08-06" src="https://github.com/user-attachments/assets/8f89aff5-f702-4bc3-a245-65206f347235" />
+<img width="1043" height="589" alt="Screenshot from 2026-01-18 15-08-15" src="https://github.com/user-attachments/assets/1804e5dc-cebb-4111-ab39-221233f7b29f" />
+<img width="1043" height="589" alt="Screenshot from 2026-01-18 15-08-20" src="https://github.com/user-attachments/assets/c5faa8e5-30b1-42e0-ace2-e666323e941a" />
+<img width="1043" height="589" alt="Screenshot from 2026-01-18 15-08-49" src="https://github.com/user-attachments/assets/5fed5702-f404-4a3d-a4f0-d83fd8720994" />
+<img width="1043" height="589" alt="Screenshot from 2026-01-18 15-09-55" src="https://github.com/user-attachments/assets/89cefc64-bfd8-4875-8d6a-c6f996ff2c00" />
 
 ## Mobile
-
-<img width="706" height="319" alt="Screenshot from 2026-01-03 12-42-01" src="https://github.com/user-attachments/assets/a4ab7012-56bd-4dec-9cf1-a74c963e5a62" />
-<img width="706" height="319" alt="Screenshot from 2026-01-03 12-42-10" src="https://github.com/user-attachments/assets/b7e1954d-49ba-42cb-b1eb-e7dd4dd99196" />
-<img width="706" height="319" alt="Screenshot from 2026-01-03 12-42-53" src="https://github.com/user-attachments/assets/6da2deeb-06c8-46af-aead-660b052e2cbf" />
-<img width="706" height="319" alt="Screenshot from 2026-01-03 12-43-00" src="https://github.com/user-attachments/assets/86751389-a931-4469-b212-7e77ff985339" />
-<img width="706" height="319" alt="Screenshot from 2026-01-03 12-43-53" src="https://github.com/user-attachments/assets/d3a18125-b60c-40fe-9168-408aded18cbd" />
+<img width="1059" height="478" alt="Screenshot from 2026-01-18 15-11-18" src="https://github.com/user-attachments/assets/09f2ba29-322a-4e79-8e31-407f6a381923" />
+<img width="1059" height="478" alt="Screenshot from 2026-01-18 15-11-26" src="https://github.com/user-attachments/assets/9669d29c-5767-483d-8926-b366729a0cb4" />
+<img width="1059" height="478" alt="Screenshot from 2026-01-18 15-11-37" src="https://github.com/user-attachments/assets/714850e8-21b9-482b-ae1b-a7b538639f20" />
+<img width="1059" height="478" alt="Screenshot from 2026-01-18 15-12-42" src="https://github.com/user-attachments/assets/9ac36559-c975-4b78-a3c7-896bb8b9daea" />
 
 ## Funcionalidades
 
