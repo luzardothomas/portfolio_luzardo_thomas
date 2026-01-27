@@ -17,27 +17,27 @@
 
 ## Objetivos de la APP
 
-**WatchOffline** está diseñada para combinar la potencia de **VLC** con una **experiencia de usuario inspirada en Netflix**, facilitando la reproducción de contenido multimedia de forma simple, consistente e intuitiva.
+WatchOffline está diseñada para combinar la potencia de VLC con una experiencia de usuario inspirada en una interfaz de una plataforma de Streaming, facilitando la reproducción de contenido multimedia de forma simple, consistente e intuitiva.
 
-El objetivo principal de la aplicación es permitir el consumo de contenido **sin depender de una conexión a internet**, una vez que los datos necesarios han sido cargados. El contenido puede importarse desde:
+El objetivo principal de la aplicación es permitir el consumo de contenido sin depender de una conexión a internet, una vez que los datos necesarios han sido cargados. El contenido puede importarse desde:
 
-- **Pendrives**
-- **Discos duros externos**
-- **Almacenamiento interno del dispositivo**
+- Pendrives
+- Discos duros externos
+- Almacenamiento interno del dispositivo
 
-Este contenido queda disponible para su reproducción **completamente offline**, exceptuando la **carga inicial de metadatos**, que se obtiene desde una **API**.
+Este contenido queda disponible para su reproducción completamente offline, exceptuando la carga inicial de metadatos, que se obtiene desde una API.
 
 Para mejorar la experiencia de uso, WatchOffline ofrece funcionalidades como:
 
-- **Saltear intros de series**
-- **Armado de playlists aleatorias**
-- **Navegación optimizada** tanto para **Android TV** como para **dispositivos móviles**
+- Saltear intros de series
+- Armado de playlists aleatorias
+- Navegación optimizada tanto para Android TV como para dispositivos móviles
 
-Además, WatchOffline gestiona de forma **global y persistente** los **tracks de audio y subtítulos**, replicando un comportamiento típico de plataformas como Netflix.  
-Por ejemplo, si el usuario selecciona **audio en inglés** y **subtítulos en español**, la aplicación aplicará automáticamente esa configuración a todo el contenido compatible, siempre que el archivo multimedia lo permita, sin necesidad de realizar ajustes manuales en cada reproducción.
+Además, WatchOffline gestiona de forma global y persistente los tracks de audio y subtítulos, replicando un comportamiento típico de plataformas de Streaming.  
+Por ejemplo, si el usuario selecciona audio en inglés y subtítulos en español, la aplicación aplicará automáticamente esa configuración a todo el contenido compatible, siempre que el archivo multimedia lo permita, sin necesidad de realizar ajustes manuales en cada reproducción.
 
-Como alternativa al almacenamiento local, la aplicación incluye soporte para **servidores SMB**, permitiendo conectarse a **uno o múltiples servidores** para importar y reproducir contenido de manera flexible.  
-A diferencia del contenido local, el uso de SMB **requiere conexión a red**, pero mantiene siempre el **control local del usuario** sobre sus archivos, sin depender de servicios externos.
+Como alternativa al almacenamiento local, la aplicación incluye soporte para servidores SMB, permitiendo conectarse a uno o múltiples servidores para importar y reproducir contenido de manera flexible.  
+A diferencia del contenido local, el uso de SMB requiere conexión a red, pero mantiene siempre el control local del usuario sobre sus archivos, sin depender de servicios externos.
 
 
 
