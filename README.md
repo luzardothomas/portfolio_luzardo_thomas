@@ -16,7 +16,7 @@
 ## Imágenes con Hipervínculos
 
 [![Screenshot from 2026-02-18 15-58-17](https://github.com/user-attachments/assets/d46bae01-c24b-4754-81eb-7339f919aa83)](https://www.funerarialaunion.cl)
-[![Screenshot from 2026-02-18 15-58-33](https://github.com/user-attachments/assets/423f102c-0699-41ad-9782-23e850eff771)](https://www.funerarialaunion.cl/ubicacion)
+[![Screenshot from 2026-02-18 15-58-33](https://github.com/user-attachments/assets/423f102c-0699-41ad-9782-23e850eff771)](https://www.funerarialaunion.cl/ubicacion#opcionA)
 
 </details>
 
