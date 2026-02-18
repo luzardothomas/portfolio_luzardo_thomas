@@ -1,4 +1,67 @@
-# Proyecto de TV + Mobile
+# Proyectos hechos para Clientes
+
+<details>
+	<summary>Proyecto 1</summary>
+
+# Funeraría La Unión www.funerarialaunion.cl (Chile)
+
+ **Tecnologías utilizadas**
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+</p>
+
+## Imágenes con Hipervínculos
+
+[![Screenshot from 2026-02-18 15-58-17](https://github.com/user-attachments/assets/d46bae01-c24b-4754-81eb-7339f919aa83)](https://www.funerarialaunion.cl)
+[![Screenshot from 2026-02-18 15-58-33](https://github.com/user-attachments/assets/423f102c-0699-41ad-9782-23e850eff771)](https://www.funerarialaunion.cl/ubicacion)
+
+</details>
+
+<details>
+	<summary>Proyecto 2</summary>
+
+# Gestor de Productos/Stock/Ventas en Excel asociado a una Webapp
+
+ **Tecnologías utilizadas**
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/Google%20Apps%20Script-4285F4?style=for-the-badge&logo=googleapps&logoColor=white" alt="Google Apps Script" />
+  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel" />
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+</p>
+
+## Imágenes con Hipervínculos
+
+## Gestor en Excel (Solo lectura)
+
+### Registrar y modificar Productos
+
+[![Screenshot from 2025-07-26 11-18-06](https://github.com/user-attachments/assets/ea27de39-a572-4777-94eb-ba19aa68c6a2)](https://docs.google.com/spreadsheets/d/1bAWnvUEpwE99F7vQJWXQyTF9YEDViv7gL2M8NR58hO0/edit?usp=sharing)
+
+### Registrar Ventas
+
+[![Screenshot from 2025-07-26 10-48-13](https://github.com/user-attachments/assets/2e81672a-444b-4c71-96c8-126dba39081b)](https://docs.google.com/spreadsheets/d/1bAWnvUEpwE99F7vQJWXQyTF9YEDViv7gL2M8NR58hO0/edit?usp=sharing)
+
+### Registrar Stock
+
+[![Screenshot from 2025-07-26 11-24-31](https://github.com/user-attachments/assets/97228c34-f37e-485d-aa56-0e3ccc59879e)](https://docs.google.com/spreadsheets/d/1bAWnvUEpwE99F7vQJWXQyTF9YEDViv7gL2M8NR58hO0/edit?usp=sharing)
+
+
+## Gestor desde una Webapp que actualiza el Excel
+
+[![Screenshot from 2025-07-26 11-48-13](https://github.com/user-attachments/assets/b48c6fbd-f797-4811-88e4-7afd1052f7f2)](https://appforexcel.luzardo-thomas.workers.dev/)
+[![Screenshot from 2025-07-26 11-48-14](https://github.com/user-attachments/assets/5303d0d0-72a6-4a0b-9c84-5c87a9e2eca8)](https://appforexcel.luzardo-thomas.workers.dev/)
+[![Screenshot from 2025-07-26 11-48-15](https://github.com/user-attachments/assets/b1d7b96a-699f-4e7e-9927-e3c5cf96d283)](https://appforexcel.luzardo-thomas.workers.dev/)
+[![Screenshot from 2025-07-26 11-48-16](https://github.com/user-attachments/assets/e007878d-5206-4399-924c-c015b82e389e)](https://appforexcel.luzardo-thomas.workers.dev/)
+
+</details>
+
+# Proyecto OpenSource de TV + Mobile
 
 <details>
 	<summary>Proyecto</summary>
@@ -71,50 +134,6 @@ A diferencia del contenido local, el uso de SMB requiere conexión a red, pero m
 <img width="783" height="226" alt="Screenshot from 2026-01-03 12-59-59" src="https://github.com/user-attachments/assets/9b0c4018-8e07-4d19-8d6f-66a0108ac998" />
 <img width="630" height="232" alt="Screenshot from 2026-01-03 13-00-06" src="https://github.com/user-attachments/assets/882bc9c8-e23d-48fd-8ae3-19a9b8b327a8" />
 
-
-</details>
-
-# Proyectos hechos para Clientes
-
-<details>
-	<summary>Proyecto 1</summary>
-
-# Gestor de Productos/Stock/Ventas en Excel asociado a una Webapp
-
- **Tecnologías utilizadas**
-<p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/Google%20Apps%20Script-4285F4?style=for-the-badge&logo=googleapps&logoColor=white" alt="Google Apps Script" />
-  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel" />
-  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
-  
-</p>
-
-## Imágenes con Hipervínculos
-
-## Gestor en Excel (Solo lectura)
-
-### Registrar y modificar Productos
-
-[![Screenshot from 2025-07-26 11-18-06](https://github.com/user-attachments/assets/ea27de39-a572-4777-94eb-ba19aa68c6a2)](https://docs.google.com/spreadsheets/d/1bAWnvUEpwE99F7vQJWXQyTF9YEDViv7gL2M8NR58hO0/edit?usp=sharing)
-
-### Registrar Ventas
-
-[![Screenshot from 2025-07-26 10-48-13](https://github.com/user-attachments/assets/2e81672a-444b-4c71-96c8-126dba39081b)](https://docs.google.com/spreadsheets/d/1bAWnvUEpwE99F7vQJWXQyTF9YEDViv7gL2M8NR58hO0/edit?usp=sharing)
-
-### Registrar Stock
-
-[![Screenshot from 2025-07-26 11-24-31](https://github.com/user-attachments/assets/97228c34-f37e-485d-aa56-0e3ccc59879e)](https://docs.google.com/spreadsheets/d/1bAWnvUEpwE99F7vQJWXQyTF9YEDViv7gL2M8NR58hO0/edit?usp=sharing)
-
-
-## Gestor desde una Webapp que actualiza el Excel
-
-[![Screenshot from 2025-07-26 11-48-13](https://github.com/user-attachments/assets/b48c6fbd-f797-4811-88e4-7afd1052f7f2)](https://appforexcel.luzardo-thomas.workers.dev/)
-[![Screenshot from 2025-07-26 11-48-14](https://github.com/user-attachments/assets/5303d0d0-72a6-4a0b-9c84-5c87a9e2eca8)](https://appforexcel.luzardo-thomas.workers.dev/)
-[![Screenshot from 2025-07-26 11-48-15](https://github.com/user-attachments/assets/b1d7b96a-699f-4e7e-9927-e3c5cf96d283)](https://appforexcel.luzardo-thomas.workers.dev/)
-[![Screenshot from 2025-07-26 11-48-16](https://github.com/user-attachments/assets/e007878d-5206-4399-924c-c015b82e389e)](https://appforexcel.luzardo-thomas.workers.dev/)
 
 </details>
 
