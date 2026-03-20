@@ -72,11 +72,11 @@
   <img src="https://github.com/user-attachments/assets/9028c200-5c90-43fb-baa6-0abf916e40c3" width="675" alt="logo_with_name">
 </div>
 
+> JPUV es un reproductor de video con VLC integrado, es compatible con Android 11 en adelante, su función principal es importar enlaces a videos locales de un dispositivo o de un servidor local o externo. Tiene funcionalidades semejantes a las plataformas de Streaming como poder saltar la intro y poder seguir series por sus temporadas configurando sus tracks de audio y subtítulos.
+
 <p align="center">
   <a href="https://github.com/luzardothomas/JPUV"><img src="https://img.shields.io/badge/Entrar%20al%20repositorio-181717?style=for-the-badge&logo=github" alt="Entrar al repositorio"></a>
 </p>	
-	
-> JPUV es un reproductor de video con VLC integrado, es compatible con Android 11 en adelante, su función principal es importar enlaces a videos locales de un dispositivo o de un servidor local o externo. Tiene funcionalidades semejantes a las plataformas de Streaming como poder saltar la intro y poder seguir series por sus temporadas configurando sus tracks de audio y subtítulos.
 
 **Tecnologías utilizadas**
 	
